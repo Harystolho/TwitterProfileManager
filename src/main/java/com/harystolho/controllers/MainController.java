@@ -8,6 +8,7 @@ import org.jsoup.nodes.Document;
 import com.harystolho.Main;
 import com.harystolho.twitter.AccountManager;
 import com.harystolho.twitter.TwitterAccount;
+import com.harystolho.utils.TPMUtils;
 
 import javafx.collections.ObservableList;
 import javafx.concurrent.Worker.State;
@@ -34,6 +35,8 @@ public class MainController {
 
 		Main.getApplication().setMainController(this);
 
+		loadAccountPane();
+
 		loadAccounts();
 
 		loadEventHandler();
@@ -42,6 +45,14 @@ public class MainController {
 
 	private void loadAccounts() {
 		setAccountList(AccountManager.loadAccounts());
+	}
+
+	private void loadAccountPane() {
+
+		Pane pane = (Pane) TPMUtils.loadFXML("menu.fxml");
+
+		rightPane.getChildren().add(pane);
+
 	}
 
 	private void loadEventHandler() {

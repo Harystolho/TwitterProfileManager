@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url('Quicksand-Medium.ttf');
+}
+
+.label{
+    -fx-font-size: 20px;
+}
+
+.text{
+    -fx-font-family: "Quicksand";
+}
+
+.menuLabel .text{
+    -fx-fill: white;
+}
+
+.list-cell, .list-view{
+    -fx-background-color: transparent;
+}
+
+.list-cell:selected .text{
+    -fx-fill: rgba(0, 0, 0, 0.53);
+}
+
+.menu{
+    -fx-background-color: #100080;
+}

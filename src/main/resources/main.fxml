@@ -16,6 +16,6 @@
       </Label>
       <ListView fx:id="accountList" layoutX="7.0" layoutY="61.0" prefHeight="274.0" prefWidth="246.0" />
       <Pane fx:id="rightPane" layoutX="264.0" prefHeight="720.0" prefWidth="1016.0" />
-      <Button layoutX="14.0" layoutY="393.0" mnemonicParsing="false" text="Remove Account" />
+      <Button disable="true" layoutX="14.0" layoutY="393.0" mnemonicParsing="false" text="Remove Account" />
    </children>
 </Pane>
