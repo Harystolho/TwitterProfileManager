@@ -7,7 +7,8 @@ import com.harystolho.utils.TPMUtils;
  *
  */
 public class Main {
-	public static TPMApplication application;
+	
+	private static TPMApplication application;
 
 	public static void main(String[] args) {
 

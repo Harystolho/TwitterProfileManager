@@ -19,6 +19,10 @@ public class TwitterAccount {
 		this.username = username;
 	}
 
+	public void setCookie(HashMap<String, String> cookies) {
+		this.cookies = cookies;
+	}
+
 	public void setCookie(String cookies) {
 
 		String[] cookieList = cookies.split(";");

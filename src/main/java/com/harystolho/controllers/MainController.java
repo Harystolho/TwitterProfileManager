@@ -1,13 +1,15 @@
 package com.harystolho.controllers;
 
-import java.net.CookieHandler;
+import java.util.List;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
 import com.harystolho.Main;
+import com.harystolho.twitter.AccountManager;
 import com.harystolho.twitter.TwitterAccount;
 
+import javafx.collections.ObservableList;
 import javafx.concurrent.Worker.State;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -32,8 +34,14 @@ public class MainController {
 
 		Main.getApplication().setMainController(this);
 
+		loadAccounts();
+
 		loadEventHandler();
 
+	}
+
+	private void loadAccounts() {
+		setAccountList(AccountManager.loadAccounts());
 	}
 
 	private void loadEventHandler() {
@@ -55,6 +63,7 @@ public class MainController {
 
 			if (newState == State.SUCCEEDED) {
 
+				// If you logged in successfully
 				if (engine.getLocation().equals("https://twitter.com/")) {
 
 					TwitterAccount ta = new TwitterAccount();
@@ -71,7 +80,6 @@ public class MainController {
 					rightPane.getChildren().clear();
 
 				}
-
 			}
 
 		});
@@ -83,6 +91,14 @@ public class MainController {
 
 		engine.load("https://twitter.com/login/");
 
+	}
+
+	public ObservableList<TwitterAccount> getAccountList() {
+		return accountList.getItems();
+	}
+
+	public void setAccountList(List<TwitterAccount> accountList) {
+		this.accountList.getItems().setAll(accountList);
 	}
 
 }

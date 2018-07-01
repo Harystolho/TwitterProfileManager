@@ -4,6 +4,9 @@ import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+import com.harystolho.Main;
+import com.harystolho.twitter.AccountManager;
+
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 
@@ -33,6 +36,9 @@ public class TPMUtils {
 
 	public static void close() {
 		logger.log(Level.INFO, "Closing application.");
+
+		AccountManager.saveAccounts(Main.getApplication().getMainController().getAccountList());
+
 	}
 
 }

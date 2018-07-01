@@ -34,7 +34,17 @@ public class TPMApplication extends Application {
 
 		window.setScene(scene);
 
+		loadEventHandler();
+
 		window.show();
+
+	}
+
+	private void loadEventHandler() {
+
+		window.setOnCloseRequest((e) -> {
+			TPMUtils.close();
+		});
 
 	}
 
