@@ -3,6 +3,7 @@ package com.harystolho;
 import java.util.logging.Logger;
 
 import com.harystolho.controllers.MainController;
+import com.harystolho.controllers.ProfileController;
 import com.harystolho.utils.TPMUtils;
 
 import javafx.application.Application;
@@ -16,6 +17,7 @@ public class TPMApplication extends Application {
 	private Stage window;
 
 	private MainController mainController;
+	private ProfileController profileController;
 
 	private static final int WIDTH = 1280;
 	private static final int HEIGHT = 720;
@@ -29,6 +31,8 @@ public class TPMApplication extends Application {
 
 		window.setWidth(WIDTH);
 		window.setHeight(HEIGHT);
+
+		window.setResizable(false);
 
 		Scene scene = createMainScene();
 
@@ -75,6 +79,14 @@ public class TPMApplication extends Application {
 
 	public void setMainController(MainController mainController) {
 		this.mainController = mainController;
+	}
+
+	public ProfileController getProfileController() {
+		return profileController;
+	}
+
+	public void setProfileController(ProfileController profileController) {
+		this.profileController = profileController;
 	}
 
 	/**

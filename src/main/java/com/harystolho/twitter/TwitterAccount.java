@@ -1,11 +1,12 @@
 package com.harystolho.twitter;
 
 import java.util.HashMap;
+import java.util.Map;
 
 public class TwitterAccount {
 
 	private String username;
-	private HashMap<String, String> cookies;
+	private Map<String, String> cookies;
 
 	public TwitterAccount() {
 		cookies = new HashMap<>();
@@ -19,7 +20,7 @@ public class TwitterAccount {
 		this.username = username;
 	}
 
-	public void setCookie(HashMap<String, String> cookies) {
+	public void setCookie(Map<String, String> cookies) {
 		this.cookies = cookies;
 	}
 
@@ -34,7 +35,7 @@ public class TwitterAccount {
 
 	}
 
-	public HashMap<String, String> getCookies() {
+	public Map<String, String> getCookies() {
 		return cookies;
 	}
 

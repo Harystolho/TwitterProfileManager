@@ -19,8 +19,16 @@
     -fx-background-color: transparent;
 }
 
+.list-cell .text{
+    -fx-fill: white;
+}
+
 .list-cell:selected .text{
-    -fx-fill: rgba(0, 0, 0, 0.53);
+    -fx-fill: rgb(200, 200, 200);
+}
+
+#leftPane{
+    -fx-background-color: #4f4f4f;
 }
 
 .menu{
