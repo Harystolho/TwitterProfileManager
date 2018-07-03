@@ -1,24 +1,28 @@
 package com.harystolho.controllers;
 
 import java.io.IOException;
+import java.net.CookieHandler;
 import java.net.CookieManager;
+import java.net.CookiePolicy;
 import java.util.List;
 
-import org.json.JSONObject;
-import org.jsoup.Jsoup;
 import org.jsoup.Connection.Method;
 import org.jsoup.Connection.Response;
+import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
 import com.harystolho.Main;
 import com.harystolho.twitter.AccountManager;
 import com.harystolho.twitter.TwitterAccount;
+import com.harystolho.utils.TPMCookieStore;
 import com.harystolho.utils.TPMUtils;
 import com.harystolho.utils.WebEngineBridge;
 
 import javafx.collections.ObservableList;
 import javafx.concurrent.Worker.State;
 import javafx.fxml.FXML;
+import javafx.scene.control.Alert;
+import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.Button;
 import javafx.scene.control.ListView;
 import javafx.scene.layout.Pane;
@@ -54,12 +58,13 @@ public class MainController {
 
 		addNewAccount.setOnAction((e) -> {
 
-			// openLoginView();
-			openWebView();
+			loadOnRightPage((Pane) TPMUtils.loadFXML("login.fxml"));
+			// openWebView();
 
 		});
 
 		accountList.getSelectionModel().selectedItemProperty().addListener((ob, oldValue, newValue) -> {
+			loadUserProfilePane();
 			Main.getApplication().getProfileController().loadProfile(newValue);
 		});
 
@@ -69,47 +74,60 @@ public class MainController {
 		setAccountList(AccountManager.loadAccounts());
 	}
 
-	/**
-	 * Loads information about the account in the right pane.
-	 */
-	private void loadUserProfilePane() {
-
-		Pane pane = (Pane) TPMUtils.loadFXML("menu.fxml");
-
-		rightPane.getChildren().add(pane);
-
-	}
-
 	public void loginUser(String username, String password) {
 
 		try {
 
-			// To get the auth token.
-			Response loginToken = Jsoup.connect("https://twitter.com/login").execute();
+			// Gets login page to get auth_token
+			Response login = Jsoup.connect("https://twitter.com/login").execute();
 
-			Document loginPage = Jsoup.parse(loginToken.body());
+			Document loginPage = Jsoup.parse(login.body());
 
 			String authToken = loginPage
 					.selectFirst("form.t1-form:nth-child(2) > fieldset:nth-child(1) > input:nth-child(4)").val();
 
 			// Make a POST request to get the cookies.
-			Response loginResponse = Jsoup.connect("https://twitter.com/sessions").method(Method.POST)
-					.cookies(loginToken.cookies()).data("session[username_or_email]", username)
-					.data("session[password]", password).data("remember_me", "1").data("authenticity_token", authToken)
-					.execute();
+			Response loginResponse = Jsoup.connect("https://twitter.com/sessions").cookies(login.cookies())
+					.data("session[username_or_email]", username).data("session[password]", password)
+					.data("remember_me", "1").data("authenticity_token", authToken).method(Method.POST).execute();
+
+			Document accountName = Jsoup.connect("https://twitter.com/").referrer("https://twitter.com/login")
+					.cookies(loginResponse.cookies()).get();
 
 			TwitterAccount ta = new TwitterAccount();
 
-			ta.setUsername(username);
+			ta.setUsername(accountName.selectFirst("b.u-linkComplex-target").text());
 			ta.setCookie(loginResponse.cookies());
 
-			loadUserProfilePane();
+			accountList.getItems().add(ta);
 
-		} catch (IOException e) {
-			e.printStackTrace();
+		} catch (Exception e) {
+			Alert alert = new Alert(AlertType.ERROR);
+
+			alert.setTitle("Login Error");
+			alert.setContentText("An error happened. Checkyour username/email or your password and try again.");
+
+			alert.showAndWait();
+			return;
 		}
+
+		loadUserProfilePane();
+
 	}
 
+	private void loadUserProfilePane() {
+		loadOnRightPage((Pane) TPMUtils.loadFXML("menu.fxml"));
+	}
+
+	private void loadOnRightPage(Pane pane) {
+		rightPane.getChildren().clear();
+		rightPane.getChildren().add(pane);
+	}
+
+	/**
+	 * I'm not using this because it changes the CookieHandler object. Because of
+	 * that I can't see <code>httpOnly</code> cookies.
+	 */
 	private void openWebView() {
 
 		WebView view = new WebView();

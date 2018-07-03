@@ -20,6 +20,7 @@ import com.harystolho.twitter.TwitterAccount;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
+import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 
 public class ProfileController {
@@ -67,35 +68,14 @@ public class ProfileController {
 		logger.log(Level.INFO, "Loading profile: " + acc.getUsername());
 
 		Document profilePage = null;
-		
-		/*Response profilePageResponse = Jsoup.connect("https://twitter.com/TidderJail")
-				.cookies(loginResponse.cookies()).referrer("https://twitter.com/TidderJail").method(Method.GET)
-				.execute();
 
-		Document profile = Jsoup.parse(profilePageResponse.body());*/
-		
 		try {
-			Connection conn = Jsoup.connect("https://twitter.com/" + acc.getUsername()).cookies(acc.getCookies());
+			Response profilePageResponse = Jsoup.connect("https://twitter.com/" + acc.getUsername())
+					.cookies(acc.getCookies()).referrer("https://twitter.com").method(Method.GET).execute();
 
-			Response res = conn.execute();
-
-			System.out.println(res.cookies());
-
-			try {
-				Files.write(Paths.get("test.txt"), res.bodyAsBytes(), StandardOpenOption.CREATE);
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
-
-			// profilePage = conn.get();
-		} catch (IOException e) {
-			logger.log(Level.SEVERE, "Couldn't open profile.");
-			return;
-		}
-
-		if (profilePage == null) {
-			logger.log(Level.SEVERE, "Profile page is null.");
-			return;
+			profilePage = Jsoup.parse(profilePageResponse.body());
+		} catch (Exception e) {
+			logger.log(Level.SEVERE, "Couldn't display profile information.");
 		}
 
 		fillProfileInformation(profilePage);
@@ -105,15 +85,24 @@ public class ProfileController {
 	private void fillProfileInformation(Document profilePage) {
 
 		try {
-			Files.write(Paths.get("test.txt"), profilePage.outerHtml().getBytes(), StandardOpenOption.CREATE);
-		} catch (IOException e) {
-			e.printStackTrace();
+			avatar.setImage(new Image(profilePage.selectFirst(".ProfileAvatar-image").attr("src")));
+
+			username.setText(profilePage.selectFirst(".ProfileHeaderCard-nameLink").text());
+
+			tweets.setText(profilePage
+					.selectFirst("li.ProfileNav-item:nth-child(1) > a:nth-child(1) > span:nth-child(3)").text());
+
+			followers.setText(
+					profilePage.selectFirst("li.ProfileNav-item:nth-child(3) > a:nth-child(1) > span:nth-child(3)")
+							.attr("data-count"));
+
+			following.setText(
+					profilePage.selectFirst("li.ProfileNav-item:nth-child(2) > a:nth-child(1) > span:nth-child(3)")
+							.attr("data-count"));
+
+		} catch (Exception e) {
+			// Do nothing.
 		}
-
-		username.setText(profilePage.selectFirst(".ProfileHeaderCard-nameLink").text());
-
-		tweets.setText(
-				profilePage.selectFirst("li.ProfileNav-item:nth-child(1) > a:nth-child(1) > span:nth-child(3)").text());
 
 	}
 

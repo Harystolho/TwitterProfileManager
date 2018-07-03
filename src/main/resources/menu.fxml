@@ -18,15 +18,15 @@
       <Label fx:id="followers" layoutX="88.0" layoutY="18.0" styleClass="menuLabel" text="Followers" />
       <Label fx:id="settings" layoutX="205.0" layoutY="18.0" styleClass="menuLabel" text="Settings" />
       <ImageView fx:id="avatar" fitHeight="132.0" fitWidth="132.0" layoutX="22.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true" />
-      <Label fx:id="username" layoutX="180.0" layoutY="185.0" text="Username" />
+      <Label fx:id="username" layoutX="180.0" layoutY="185.0" prefWidth="132.0" text="Username" />
       <Separator layoutX="32.0" layoutY="210.0" prefHeight="26.0" prefWidth="958.0" />
       <Label layoutX="32.0" layoutY="252.0" text="Tweets:" />
       <Label layoutX="31.0" layoutY="298.0" text="Followers:" />
       <Label layoutX="33.0" layoutY="344.0" text="Folowing:" />
       <Label layoutX="33.0" layoutY="390.0" text="Likes:" />
-      <Label fx:id="tweets" layoutX="153.0" layoutY="252.0" text="########" />
-      <Label fx:id="followers" layoutX="153.0" layoutY="298.0" text="########" />
-      <Label fx:id="following" layoutX="153.0" layoutY="344.0" text="########" />
-      <Label fx:id="likes" layoutX="154.0" layoutY="390.0" text="########" />
+      <Label fx:id="tweets" layoutX="153.0" layoutY="252.0" text="0" />
+      <Label fx:id="followers" layoutX="153.0" layoutY="298.0" text="0" />
+      <Label fx:id="following" layoutX="153.0" layoutY="344.0" text="0" />
+      <Label fx:id="likes" layoutX="154.0" layoutY="390.0" text="0" />
    </children>
 </Pane>
