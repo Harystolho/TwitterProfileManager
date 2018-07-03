@@ -19,6 +19,11 @@ public class AccountManager {
 
 	private static final Logger logger = Logger.getLogger(AccountManager.class.getName());
 
+	/**
+	 * Saves accounts to <code>accounts.json</code>
+	 * 
+	 * @param observableList
+	 */
 	public static void saveAccounts(ObservableList<TwitterAccount> observableList) {
 
 		JSONArray accounts = new JSONArray();
@@ -40,6 +45,11 @@ public class AccountManager {
 
 	}
 
+	/**
+	 * Loads accounts from <code>accounts.json</code>
+	 * 
+	 * @return
+	 */
 	public static List<TwitterAccount> loadAccounts() {
 
 		List<TwitterAccount> accountList = new ArrayList<>();

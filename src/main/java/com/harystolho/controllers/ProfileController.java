@@ -64,6 +64,11 @@ public class ProfileController {
 
 	}
 
+	/**
+	 * Connects to an user profile page and retrieves the page.
+	 * 
+	 * @param acc
+	 */
 	public void loadProfile(TwitterAccount acc) {
 		logger.log(Level.INFO, "Loading profile: " + acc.getUsername());
 
@@ -82,6 +87,11 @@ public class ProfileController {
 
 	}
 
+	/**
+	 * Shows information about user profile.
+	 * 
+	 * @param profilePage
+	 */
 	private void fillProfileInformation(Document profilePage) {
 
 		try {

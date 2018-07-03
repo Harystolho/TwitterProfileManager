@@ -1,9 +1,6 @@
 package com.harystolho.controllers;
 
 import java.io.IOException;
-import java.net.CookieHandler;
-import java.net.CookieManager;
-import java.net.CookiePolicy;
 import java.util.List;
 
 import org.jsoup.Connection.Method;
@@ -14,7 +11,6 @@ import org.jsoup.nodes.Document;
 import com.harystolho.Main;
 import com.harystolho.twitter.AccountManager;
 import com.harystolho.twitter.TwitterAccount;
-import com.harystolho.utils.TPMCookieStore;
 import com.harystolho.utils.TPMUtils;
 import com.harystolho.utils.WebEngineBridge;
 
@@ -74,6 +70,15 @@ public class MainController {
 		setAccountList(AccountManager.loadAccounts());
 	}
 
+	/**
+	 * Tries to login the user using it's username/email and password. If Twitter
+	 * authorizes the login it will create a new
+	 * {@link #com.harystolho.twitter.TwitterAccount TwitterAccount} and add it to
+	 * {@link #accountList}, otherwise it will display and error message.
+	 * 
+	 * @param username
+	 * @param password
+	 */
 	public void loginUser(String username, String password) {
 
 		try {
@@ -127,6 +132,8 @@ public class MainController {
 	/**
 	 * I'm not using this because it changes the CookieHandler object. Because of
 	 * that I can't see <code>httpOnly</code> cookies.
+	 * 
+	 * @deprecated
 	 */
 	private void openWebView() {
 
@@ -158,6 +165,7 @@ public class MainController {
 
 	}
 
+	@Deprecated
 	private void loadLoginPage(WebEngine engine) {
 		Document loginPage = null;
 		try {
