@@ -21,6 +21,7 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.Button;
 import javafx.scene.control.ListView;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.Pane;
 import javafx.scene.web.WebEngine;
 import javafx.scene.web.WebView;
@@ -36,6 +37,9 @@ public class MainController {
 
 	@FXML
 	private Pane rightPane;
+
+	@FXML
+	private ImageView home;
 
 	@FXML
 	void initialize() {
@@ -64,6 +68,10 @@ public class MainController {
 			Main.getApplication().getProfileController().loadProfile(newValue);
 		});
 
+		home.setOnMouseClicked((e) -> {
+			loadUserProfilePane();
+		});
+
 	}
 
 	private void loadAccounts() {
@@ -83,7 +91,7 @@ public class MainController {
 
 		try {
 
-			// Gets login page to get auth_token
+			// Connects to login page to get the authToken.
 			Response login = Jsoup.connect("https://twitter.com/login").execute();
 
 			Document loginPage = Jsoup.parse(login.body());
@@ -91,17 +99,17 @@ public class MainController {
 			String authToken = loginPage
 					.selectFirst("form.t1-form:nth-child(2) > fieldset:nth-child(1) > input:nth-child(4)").val();
 
-			// Make a POST request to get the cookies.
+			// POST request to get the user cookies.
 			Response loginResponse = Jsoup.connect("https://twitter.com/sessions").cookies(login.cookies())
 					.data("session[username_or_email]", username).data("session[password]", password)
 					.data("remember_me", "1").data("authenticity_token", authToken).method(Method.POST).execute();
 
-			Document accountName = Jsoup.connect("https://twitter.com/").referrer("https://twitter.com/login")
-					.cookies(loginResponse.cookies()).get();
+			String accountName = Jsoup.connect("https://twitter.com/").referrer("https://twitter.com/login")
+					.cookies(loginResponse.cookies()).get().selectFirst("b.u-linkComplex-target").text();
 
 			TwitterAccount ta = new TwitterAccount();
 
-			ta.setUsername(accountName.selectFirst("b.u-linkComplex-target").text());
+			ta.setUsername(accountName);
 			ta.setCookie(loginResponse.cookies());
 
 			accountList.getItems().add(ta);
@@ -130,8 +138,9 @@ public class MainController {
 	}
 
 	/**
-	 * I'm not using this because it changes the CookieHandler object. Because of
-	 * that I can't see <code>httpOnly</code> cookies.
+	 * I'm not using this because the WebEgine changes the CookHandler object.
+	 * Because of that I can't see <code>httpOnly</code> cookies that are needed in
+	 * this application.
 	 * 
 	 * @deprecated
 	 */

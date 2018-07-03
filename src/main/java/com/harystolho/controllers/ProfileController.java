@@ -1,15 +1,10 @@
 package com.harystolho.controllers;
 
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.nio.file.StandardOpenOption;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import org.json.JSONObject;
-import org.jsoup.Connection;
 import org.jsoup.Connection.Method;
 import org.jsoup.Connection.Response;
 import org.jsoup.Jsoup;
@@ -19,9 +14,12 @@ import com.harystolho.Main;
 import com.harystolho.twitter.TwitterAccount;
 
 import javafx.fxml.FXML;
+import javafx.scene.Group;
+import javafx.scene.Node;
 import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.scene.layout.Pane;
 
 public class ProfileController {
 
@@ -37,13 +35,16 @@ public class ProfileController {
 	private Label settings;
 
 	@FXML
-	private ImageView avatar;
+	private Pane statsPane;
 
 	@FXML
-	private Label username;
+	private Group paneGroup;
 
 	@FXML
 	private Label tweets;
+
+	@FXML
+	private Label followersCount;
 
 	@FXML
 	private Label following;
@@ -52,9 +53,23 @@ public class ProfileController {
 	private Label likes;
 
 	@FXML
+	private Label username;
+
+	@FXML
+	private ImageView avatar;
+
+	@FXML
+	private Pane followersPane;
+
+	private List<Label> menuLabels;
+
+	@FXML
 	void initialize() {
 
 		Main.getApplication().setProfileController(this);
+
+		createMenuLabeList();
+		setMenuLabel(stats, statsPane);
 
 		loadEventHandler();
 
@@ -62,6 +77,44 @@ public class ProfileController {
 
 	private void loadEventHandler() {
 
+		stats.setOnMouseClicked((e) -> {
+			setMenuLabel(stats, statsPane);
+
+		});
+
+		followers.setOnMouseClicked((e) -> {
+			setMenuLabel(followers, followersPane);
+		});
+
+		settings.setOnMouseClicked((e) -> {
+			setMenuLabel(settings, null);
+
+		});
+	}
+
+	private void createMenuLabeList() {
+		menuLabels = new LinkedList<>();
+
+		menuLabels.add(stats);
+		menuLabels.add(followers);
+		menuLabels.add(settings);
+	}
+
+	private void setMenuLabel(Label label, Pane pane) {
+
+		for (Label l : menuLabels) {
+			l.getStyleClass().remove("selectedLabel");
+		}
+
+		for (Node node : paneGroup.getChildren()) {
+			node.setVisible(false);
+		}
+
+		label.getStyleClass().add("selectedLabel");
+
+		if (pane != null) {
+			pane.setVisible(true);
+		}
 	}
 
 	/**
@@ -102,7 +155,7 @@ public class ProfileController {
 			tweets.setText(profilePage
 					.selectFirst("li.ProfileNav-item:nth-child(1) > a:nth-child(1) > span:nth-child(3)").text());
 
-			followers.setText(
+			followersCount.setText(
 					profilePage.selectFirst("li.ProfileNav-item:nth-child(3) > a:nth-child(1) > span:nth-child(3)")
 							.attr("data-count"));
 

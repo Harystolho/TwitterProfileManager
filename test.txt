@@ -1,0 +1,1937 @@
+<html>
+ <head></head>
+ <body>
+  <div class="Grid Grid--withGutter" data-component-context="user" role="presentation"> 
+   <div class="Grid-cell u-size1of2 u-lg-size1of3 u-mb10" data-test-selector="ProfileTimelineUser" role="presentation"> 
+    <div class="js-stream-item" role="listitem" data-item-id="782645579146891266" id="stream-item-user-782645579146891266" data-item-type="user"> 
+     <div class="ProfileCard js-actionable-user
+    
+    
+    
+    
+    " data-screen-name="Gabriel_Mushroo" data-user-id="782645579146891266" data-feedback-token="" data-impression-id=""> 
+      <a class="ProfileCard-bg js-nav" href="/Gabriel_Mushroo" tabindex="-1" aria-hidden="true" style="
+    background-color: #1DA1F2;
+    background-image: url(https://pbs.twimg.com/profile_banners/782645579146891266/1475432699/600x200);"> </a> 
+      <div class="ProfileCard-content"> 
+       <a class="ProfileCard-avatarLink js-nav js-tooltip" href="/Gabriel_Mushroo" title="gabriel" tabindex="-1" aria-hidden="true"> <img class="ProfileCard-avatarImage js-action-profile-avatar" src="https://pbs.twimg.com/profile_images/782647622037303296/v_IWp9Jy_bigger.jpg" alt=""> </a> 
+       <div class="ProfileCard-actions"> 
+        <div class="ProfileCard-userActions with-rightCaret js-userActions"> 
+         <div class="UserActions   UserActions--small u-textLeft"> 
+          <div class="user-actions btn-group not-following not-muting " data-user-id="782645579146891266" data-screen-name="Gabriel_Mushroo" data-name="gabriel" data-protected="false"> 
+           <span class="UserActions-moreActions u-inlineBlock"> <button type="button" class="js-tooltip unmute-button btn small plain-btn" title="Unmute @Gabriel_Mushroo" data-placement="top"> <span class="Icon Icon--muted Icon--medium"><span class="visuallyhidden">Unmute <span class="username u-dir u-textTruncate" dir="ltr">@<b>Gabriel_Mushroo</b></span></span></span> </button><button type="button" class="first-load js-tooltip mute-button btn small plain-btn" title="Mute @Gabriel_Mushroo" data-placement="top"> <span class="Icon Icon--unmuted Icon--medium"><span class="visuallyhidden">Mute <span class="username u-dir u-textTruncate" dir="ltr">@<b>Gabriel_Mushroo</b></span></span></span> </button></span>
+           <span class="user-actions-follow-button js-follow-btn follow-button"> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    follow-text"> <span aria-hidden="true">Follow</span> <span class="u-hiddenVisually">Follow <span class="username u-dir u-textTruncate" dir="ltr">@<b>Gabriel_Mushroo</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--primary
+    EdgeButton--small 
+    
+    button-text
+    following-text"> <span aria-hidden="true">Following</span> <span class="u-hiddenVisually">Following <span class="username u-dir u-textTruncate" dir="ltr">@<b>Gabriel_Mushroo</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--danger
+    EdgeButton--small 
+    
+    button-text
+    unfollow-text"> <span aria-hidden="true">Unfollow</span> <span class="u-hiddenVisually">Unfollow <span class="username u-dir u-textTruncate" dir="ltr">@<b>Gabriel_Mushroo</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--invertedDanger
+    EdgeButton--small 
+    
+    button-text
+    blocked-text"> <span aria-hidden="true">Blocked</span> <span class="u-hiddenVisually">Blocked <span class="username u-dir u-textTruncate" dir="ltr">@<b>Gabriel_Mushroo</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--danger
+    EdgeButton--small 
+    
+    button-text
+    unblock-text"> <span aria-hidden="true">Unblock</span> <span class="u-hiddenVisually">Unblock <span class="username u-dir u-textTruncate" dir="ltr">@<b>Gabriel_Mushroo</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    pending-text"> <span aria-hidden="true">Pending</span> <span class="u-hiddenVisually">Pending follow request from <span class="username u-dir u-textTruncate" dir="ltr">@<b>Gabriel_Mushroo</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    cancel-text"> <span aria-hidden="true">Cancel</span> <span class="u-hiddenVisually">Cancel your follow request to <span class="username u-dir u-textTruncate" dir="ltr">@<b>Gabriel_Mushroo</b></span></span> </button> </span> 
+           <div class="dropdown "> 
+            <button type="button" class="user-dropdown dropdown-toggle js-dropdown-toggle js-link js-tooltip btn plain-btn small-user-dropdown" title="More user actions"> <span class="user-dropdown-icon Icon Icon--dotsVertical Icon--small"><span class="visuallyhidden">User actions</span></span> </button> 
+            <div class="dropdown-menu dropdown-menu--rightAlign is-autoCentered is-forceRight"> 
+             <div class="dropdown-caret"> 
+              <span class="caret-outer"></span> 
+              <span class="caret-inner"></span> 
+             </div> 
+             <ul> 
+              <li class="mention-text not-blocked"><button type="button" class="dropdown-link">Tweet to <span class="username u-dir u-textTruncate" dir="ltr">@<b>Gabriel_Mushroo</b></span></button></li> 
+              <li class="dm-text"><button type="button" class="dropdown-link">Send a Direct Message</button></li> 
+              <li class="list-text not-blocked"><button type="button" class="dropdown-link">Add or remove from lists…</button></li> 
+              <li class="dropdown-divider not-blocked"></li> 
+              <li class="mute-user-item"><button type="button" class="dropdown-link">Mute <span class="username u-dir u-textTruncate" dir="ltr">@<b>Gabriel_Mushroo</b></span></button></li> 
+              <li class="unmute-user-item"><button type="button" class="dropdown-link">Unmute <span class="username u-dir u-textTruncate" dir="ltr">@<b>Gabriel_Mushroo</b></span></button></li> 
+              <li class="block-text not-blocked"><button type="button" class="dropdown-link">Block <span class="username u-dir u-textTruncate" dir="ltr">@<b>Gabriel_Mushroo</b></span></button></li> 
+              <li class="unblock-text"><button type="button" class="dropdown-link">Unblock <span class="username u-dir u-textTruncate" dir="ltr">@<b>Gabriel_Mushroo</b></span></button></li> 
+              <li class="report-text"><button type="button" class="dropdown-link">Report <span class="username u-dir u-textTruncate" dir="ltr">@<b>Gabriel_Mushroo</b></span></button></li> 
+              <li class="hide-suggestion-text"><button type="button" class="dropdown-link">Hide this suggestion</button></li> 
+              <li class="dropdown-divider is-following"></li> 
+              <li class="retweet-on-text"><button type="button" class="dropdown-link">Turn on Retweets</button></li> 
+              <li class="retweet-off-text"><button type="button" class="dropdown-link">Turn off Retweets</button></li> 
+              <li class="device-notifications-on-text"><button type="button" class="dropdown-link">Turn on mobile notifications</button></li> 
+              <li class="device-notifications-off-text"><button type="button" class="dropdown-link">Turn off mobile notifications</button></li> 
+              <li class="dropdown-divider is-embeddable"></li> 
+              <li class="embed-profile"><button type="button" class="dropdown-link">Embed this Profile</button></li> 
+             </ul> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="ProfileCard-userFields"> 
+        <div class="ProfileNameTruncated account-group"> 
+         <div class="u-textTruncate u-inlineBlock"> 
+          <a class="fullname ProfileNameTruncated-link u-textInheritColor js-nav" href="/Gabriel_Mushroo" data-aria-label-part> gabriel</a>
+         </div>
+         <span class="UserBadges"></span> 
+        </div> 
+        <span class="ProfileCard-screenname"> <a href="/Gabriel_Mushroo" class="ProfileCard-screennameLink u-linkComplex js-nav" data-aria-label-part> <span class="username u-dir" dir="ltr">@<b class="u-linkComplex-target">Gabriel_Mushroo</b></span> </a><span>‏</span> </span> 
+        <p class="ProfileCard-bio u-dir js-ellipsis" dir="ltr" data-aria-label-part></p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="Grid-cell u-size1of2 u-lg-size1of3 u-mb10" data-test-selector="ProfileTimelineUser" role="presentation"> 
+    <div class="js-stream-item" role="listitem" data-item-id="1003770200955727872" id="stream-item-user-1003770200955727872" data-item-type="user"> 
+     <div class="ProfileCard js-actionable-user
+    
+    
+    
+    
+    " data-screen-name="YtaloGomes19" data-user-id="1003770200955727872" data-feedback-token="" data-impression-id=""> 
+      <a class="ProfileCard-bg js-nav" href="/YtaloGomes19" tabindex="-1" aria-hidden="true" style="
+    background-color: #1DA1F2;
+    "> </a> 
+      <div class="ProfileCard-content"> 
+       <a class="ProfileCard-avatarLink js-nav js-tooltip" href="/YtaloGomes19" title="Ytalo Gomes" tabindex="-1" aria-hidden="true"> <img class="ProfileCard-avatarImage js-action-profile-avatar" src="https://abs.twimg.com/sticky/default_profile_images/default_profile_bigger.png" alt=""> </a> 
+       <div class="ProfileCard-actions"> 
+        <div class="ProfileCard-userActions with-rightCaret js-userActions"> 
+         <div class="UserActions   UserActions--small u-textLeft"> 
+          <div class="user-actions btn-group not-following not-muting " data-user-id="1003770200955727872" data-screen-name="YtaloGomes19" data-name="Ytalo Gomes" data-protected="false"> 
+           <span class="UserActions-moreActions u-inlineBlock"> <button type="button" class="js-tooltip unmute-button btn small plain-btn" title="Unmute @YtaloGomes19" data-placement="top"> <span class="Icon Icon--muted Icon--medium"><span class="visuallyhidden">Unmute <span class="username u-dir u-textTruncate" dir="ltr">@<b>YtaloGomes19</b></span></span></span> </button><button type="button" class="first-load js-tooltip mute-button btn small plain-btn" title="Mute @YtaloGomes19" data-placement="top"> <span class="Icon Icon--unmuted Icon--medium"><span class="visuallyhidden">Mute <span class="username u-dir u-textTruncate" dir="ltr">@<b>YtaloGomes19</b></span></span></span> </button></span>
+           <span class="user-actions-follow-button js-follow-btn follow-button"> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    follow-text"> <span aria-hidden="true">Follow</span> <span class="u-hiddenVisually">Follow <span class="username u-dir u-textTruncate" dir="ltr">@<b>YtaloGomes19</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--primary
+    EdgeButton--small 
+    
+    button-text
+    following-text"> <span aria-hidden="true">Following</span> <span class="u-hiddenVisually">Following <span class="username u-dir u-textTruncate" dir="ltr">@<b>YtaloGomes19</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--danger
+    EdgeButton--small 
+    
+    button-text
+    unfollow-text"> <span aria-hidden="true">Unfollow</span> <span class="u-hiddenVisually">Unfollow <span class="username u-dir u-textTruncate" dir="ltr">@<b>YtaloGomes19</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--invertedDanger
+    EdgeButton--small 
+    
+    button-text
+    blocked-text"> <span aria-hidden="true">Blocked</span> <span class="u-hiddenVisually">Blocked <span class="username u-dir u-textTruncate" dir="ltr">@<b>YtaloGomes19</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--danger
+    EdgeButton--small 
+    
+    button-text
+    unblock-text"> <span aria-hidden="true">Unblock</span> <span class="u-hiddenVisually">Unblock <span class="username u-dir u-textTruncate" dir="ltr">@<b>YtaloGomes19</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    pending-text"> <span aria-hidden="true">Pending</span> <span class="u-hiddenVisually">Pending follow request from <span class="username u-dir u-textTruncate" dir="ltr">@<b>YtaloGomes19</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    cancel-text"> <span aria-hidden="true">Cancel</span> <span class="u-hiddenVisually">Cancel your follow request to <span class="username u-dir u-textTruncate" dir="ltr">@<b>YtaloGomes19</b></span></span> </button> </span> 
+           <div class="dropdown "> 
+            <button type="button" class="user-dropdown dropdown-toggle js-dropdown-toggle js-link js-tooltip btn plain-btn small-user-dropdown" title="More user actions"> <span class="user-dropdown-icon Icon Icon--dotsVertical Icon--small"><span class="visuallyhidden">User actions</span></span> </button> 
+            <div class="dropdown-menu dropdown-menu--rightAlign is-autoCentered is-forceRight"> 
+             <div class="dropdown-caret"> 
+              <span class="caret-outer"></span> 
+              <span class="caret-inner"></span> 
+             </div> 
+             <ul> 
+              <li class="mention-text not-blocked"><button type="button" class="dropdown-link">Tweet to <span class="username u-dir u-textTruncate" dir="ltr">@<b>YtaloGomes19</b></span></button></li> 
+              <li class="dm-text"><button type="button" class="dropdown-link">Send a Direct Message</button></li> 
+              <li class="list-text not-blocked"><button type="button" class="dropdown-link">Add or remove from lists…</button></li> 
+              <li class="dropdown-divider not-blocked"></li> 
+              <li class="mute-user-item"><button type="button" class="dropdown-link">Mute <span class="username u-dir u-textTruncate" dir="ltr">@<b>YtaloGomes19</b></span></button></li> 
+              <li class="unmute-user-item"><button type="button" class="dropdown-link">Unmute <span class="username u-dir u-textTruncate" dir="ltr">@<b>YtaloGomes19</b></span></button></li> 
+              <li class="block-text not-blocked"><button type="button" class="dropdown-link">Block <span class="username u-dir u-textTruncate" dir="ltr">@<b>YtaloGomes19</b></span></button></li> 
+              <li class="unblock-text"><button type="button" class="dropdown-link">Unblock <span class="username u-dir u-textTruncate" dir="ltr">@<b>YtaloGomes19</b></span></button></li> 
+              <li class="report-text"><button type="button" class="dropdown-link">Report <span class="username u-dir u-textTruncate" dir="ltr">@<b>YtaloGomes19</b></span></button></li> 
+              <li class="hide-suggestion-text"><button type="button" class="dropdown-link">Hide this suggestion</button></li> 
+              <li class="dropdown-divider is-following"></li> 
+              <li class="retweet-on-text"><button type="button" class="dropdown-link">Turn on Retweets</button></li> 
+              <li class="retweet-off-text"><button type="button" class="dropdown-link">Turn off Retweets</button></li> 
+              <li class="device-notifications-on-text"><button type="button" class="dropdown-link">Turn on mobile notifications</button></li> 
+              <li class="device-notifications-off-text"><button type="button" class="dropdown-link">Turn off mobile notifications</button></li> 
+              <li class="dropdown-divider is-embeddable"></li> 
+              <li class="embed-profile"><button type="button" class="dropdown-link">Embed this Profile</button></li> 
+             </ul> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="ProfileCard-userFields"> 
+        <div class="ProfileNameTruncated account-group"> 
+         <div class="u-textTruncate u-inlineBlock"> 
+          <a class="fullname ProfileNameTruncated-link u-textInheritColor js-nav" href="/YtaloGomes19" data-aria-label-part> Ytalo Gomes</a>
+         </div>
+         <span class="UserBadges"></span> 
+        </div> 
+        <span class="ProfileCard-screenname"> <a href="/YtaloGomes19" class="ProfileCard-screennameLink u-linkComplex js-nav" data-aria-label-part> <span class="username u-dir" dir="ltr">@<b class="u-linkComplex-target">YtaloGomes19</b></span> </a><span>‏</span> </span> 
+        <p class="ProfileCard-bio u-dir js-ellipsis" dir="ltr" data-aria-label-part></p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="Grid-cell u-size1of2 u-lg-size1of3 u-mb10" data-test-selector="ProfileTimelineUser" role="presentation"> 
+    <div class="js-stream-item" role="listitem" data-item-id="1014010589444825088" id="stream-item-user-1014010589444825088" data-item-type="user"> 
+     <div class="ProfileCard js-actionable-user
+    
+    
+    
+    
+    " data-screen-name="ProCoelho" data-user-id="1014010589444825088" data-feedback-token="" data-impression-id=""> 
+      <a class="ProfileCard-bg js-nav" href="/ProCoelho" tabindex="-1" aria-hidden="true" style="
+    background-color: #1DA1F2;
+    "> </a> 
+      <div class="ProfileCard-content"> 
+       <a class="ProfileCard-avatarLink js-nav js-tooltip" href="/ProCoelho" title="Coelho Pro" tabindex="-1" aria-hidden="true"> <img class="ProfileCard-avatarImage js-action-profile-avatar" src="https://abs.twimg.com/sticky/default_profile_images/default_profile_bigger.png" alt=""> </a> 
+       <div class="ProfileCard-actions"> 
+        <div class="ProfileCard-userActions with-rightCaret js-userActions"> 
+         <div class="UserActions   UserActions--small u-textLeft"> 
+          <div class="user-actions btn-group not-following not-muting " data-user-id="1014010589444825088" data-screen-name="ProCoelho" data-name="Coelho Pro" data-protected="false"> 
+           <span class="UserActions-moreActions u-inlineBlock"> <button type="button" class="js-tooltip unmute-button btn small plain-btn" title="Unmute @ProCoelho" data-placement="top"> <span class="Icon Icon--muted Icon--medium"><span class="visuallyhidden">Unmute <span class="username u-dir u-textTruncate" dir="ltr">@<b>ProCoelho</b></span></span></span> </button><button type="button" class="first-load js-tooltip mute-button btn small plain-btn" title="Mute @ProCoelho" data-placement="top"> <span class="Icon Icon--unmuted Icon--medium"><span class="visuallyhidden">Mute <span class="username u-dir u-textTruncate" dir="ltr">@<b>ProCoelho</b></span></span></span> </button></span>
+           <span class="user-actions-follow-button js-follow-btn follow-button"> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    follow-text"> <span aria-hidden="true">Follow</span> <span class="u-hiddenVisually">Follow <span class="username u-dir u-textTruncate" dir="ltr">@<b>ProCoelho</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--primary
+    EdgeButton--small 
+    
+    button-text
+    following-text"> <span aria-hidden="true">Following</span> <span class="u-hiddenVisually">Following <span class="username u-dir u-textTruncate" dir="ltr">@<b>ProCoelho</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--danger
+    EdgeButton--small 
+    
+    button-text
+    unfollow-text"> <span aria-hidden="true">Unfollow</span> <span class="u-hiddenVisually">Unfollow <span class="username u-dir u-textTruncate" dir="ltr">@<b>ProCoelho</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--invertedDanger
+    EdgeButton--small 
+    
+    button-text
+    blocked-text"> <span aria-hidden="true">Blocked</span> <span class="u-hiddenVisually">Blocked <span class="username u-dir u-textTruncate" dir="ltr">@<b>ProCoelho</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--danger
+    EdgeButton--small 
+    
+    button-text
+    unblock-text"> <span aria-hidden="true">Unblock</span> <span class="u-hiddenVisually">Unblock <span class="username u-dir u-textTruncate" dir="ltr">@<b>ProCoelho</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    pending-text"> <span aria-hidden="true">Pending</span> <span class="u-hiddenVisually">Pending follow request from <span class="username u-dir u-textTruncate" dir="ltr">@<b>ProCoelho</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    cancel-text"> <span aria-hidden="true">Cancel</span> <span class="u-hiddenVisually">Cancel your follow request to <span class="username u-dir u-textTruncate" dir="ltr">@<b>ProCoelho</b></span></span> </button> </span> 
+           <div class="dropdown "> 
+            <button type="button" class="user-dropdown dropdown-toggle js-dropdown-toggle js-link js-tooltip btn plain-btn small-user-dropdown" title="More user actions"> <span class="user-dropdown-icon Icon Icon--dotsVertical Icon--small"><span class="visuallyhidden">User actions</span></span> </button> 
+            <div class="dropdown-menu dropdown-menu--rightAlign is-autoCentered is-forceRight"> 
+             <div class="dropdown-caret"> 
+              <span class="caret-outer"></span> 
+              <span class="caret-inner"></span> 
+             </div> 
+             <ul> 
+              <li class="mention-text not-blocked"><button type="button" class="dropdown-link">Tweet to <span class="username u-dir u-textTruncate" dir="ltr">@<b>ProCoelho</b></span></button></li> 
+              <li class="dm-text"><button type="button" class="dropdown-link">Send a Direct Message</button></li> 
+              <li class="list-text not-blocked"><button type="button" class="dropdown-link">Add or remove from lists…</button></li> 
+              <li class="dropdown-divider not-blocked"></li> 
+              <li class="mute-user-item"><button type="button" class="dropdown-link">Mute <span class="username u-dir u-textTruncate" dir="ltr">@<b>ProCoelho</b></span></button></li> 
+              <li class="unmute-user-item"><button type="button" class="dropdown-link">Unmute <span class="username u-dir u-textTruncate" dir="ltr">@<b>ProCoelho</b></span></button></li> 
+              <li class="block-text not-blocked"><button type="button" class="dropdown-link">Block <span class="username u-dir u-textTruncate" dir="ltr">@<b>ProCoelho</b></span></button></li> 
+              <li class="unblock-text"><button type="button" class="dropdown-link">Unblock <span class="username u-dir u-textTruncate" dir="ltr">@<b>ProCoelho</b></span></button></li> 
+              <li class="report-text"><button type="button" class="dropdown-link">Report <span class="username u-dir u-textTruncate" dir="ltr">@<b>ProCoelho</b></span></button></li> 
+              <li class="hide-suggestion-text"><button type="button" class="dropdown-link">Hide this suggestion</button></li> 
+              <li class="dropdown-divider is-following"></li> 
+              <li class="retweet-on-text"><button type="button" class="dropdown-link">Turn on Retweets</button></li> 
+              <li class="retweet-off-text"><button type="button" class="dropdown-link">Turn off Retweets</button></li> 
+              <li class="device-notifications-on-text"><button type="button" class="dropdown-link">Turn on mobile notifications</button></li> 
+              <li class="device-notifications-off-text"><button type="button" class="dropdown-link">Turn off mobile notifications</button></li> 
+              <li class="dropdown-divider is-embeddable"></li> 
+              <li class="embed-profile"><button type="button" class="dropdown-link">Embed this Profile</button></li> 
+             </ul> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="ProfileCard-userFields"> 
+        <div class="ProfileNameTruncated account-group"> 
+         <div class="u-textTruncate u-inlineBlock"> 
+          <a class="fullname ProfileNameTruncated-link u-textInheritColor js-nav" href="/ProCoelho" data-aria-label-part> Coelho Pro</a>
+         </div>
+         <span class="UserBadges"></span> 
+        </div> 
+        <span class="ProfileCard-screenname"> <a href="/ProCoelho" class="ProfileCard-screennameLink u-linkComplex js-nav" data-aria-label-part> <span class="username u-dir" dir="ltr">@<b class="u-linkComplex-target">ProCoelho</b></span> </a><span>‏</span> </span> 
+        <p class="ProfileCard-bio u-dir js-ellipsis" dir="ltr" data-aria-label-part></p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="Grid-cell u-size1of2 u-lg-size1of3 u-mb10" data-test-selector="ProfileTimelineUser" role="presentation"> 
+    <div class="js-stream-item" role="listitem" data-item-id="1010511472814944257" id="stream-item-user-1010511472814944257" data-item-type="user"> 
+     <div class="ProfileCard js-actionable-user
+    
+    
+    
+    
+    " data-screen-name="Joaovcs4" data-user-id="1010511472814944257" data-feedback-token="" data-impression-id=""> 
+      <a class="ProfileCard-bg js-nav" href="/Joaovcs4" tabindex="-1" aria-hidden="true" style="
+    background-color: #1DA1F2;
+    background-image: url(https://pbs.twimg.com/profile_banners/1010511472814944257/1529759978/600x200);"> </a> 
+      <div class="ProfileCard-content"> 
+       <a class="ProfileCard-avatarLink js-nav js-tooltip" href="/Joaovcs4" title="Joaovcs_" tabindex="-1" aria-hidden="true"> <img class="ProfileCard-avatarImage js-action-profile-avatar" src="https://pbs.twimg.com/profile_images/1010512712735051776/IVG5as7e_bigger.jpg" alt=""> </a> 
+       <div class="ProfileCard-actions"> 
+        <div class="ProfileCard-userActions with-rightCaret js-userActions"> 
+         <div class="UserActions   UserActions--small u-textLeft"> 
+          <div class="user-actions btn-group not-following not-muting " data-user-id="1010511472814944257" data-screen-name="Joaovcs4" data-name="Joaovcs_" data-protected="false"> 
+           <span class="UserActions-moreActions u-inlineBlock"> <button type="button" class="js-tooltip unmute-button btn small plain-btn" title="Unmute @Joaovcs4" data-placement="top"> <span class="Icon Icon--muted Icon--medium"><span class="visuallyhidden">Unmute <span class="username u-dir u-textTruncate" dir="ltr">@<b>Joaovcs4</b></span></span></span> </button><button type="button" class="first-load js-tooltip mute-button btn small plain-btn" title="Mute @Joaovcs4" data-placement="top"> <span class="Icon Icon--unmuted Icon--medium"><span class="visuallyhidden">Mute <span class="username u-dir u-textTruncate" dir="ltr">@<b>Joaovcs4</b></span></span></span> </button></span>
+           <span class="user-actions-follow-button js-follow-btn follow-button"> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    follow-text"> <span aria-hidden="true">Follow</span> <span class="u-hiddenVisually">Follow <span class="username u-dir u-textTruncate" dir="ltr">@<b>Joaovcs4</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--primary
+    EdgeButton--small 
+    
+    button-text
+    following-text"> <span aria-hidden="true">Following</span> <span class="u-hiddenVisually">Following <span class="username u-dir u-textTruncate" dir="ltr">@<b>Joaovcs4</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--danger
+    EdgeButton--small 
+    
+    button-text
+    unfollow-text"> <span aria-hidden="true">Unfollow</span> <span class="u-hiddenVisually">Unfollow <span class="username u-dir u-textTruncate" dir="ltr">@<b>Joaovcs4</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--invertedDanger
+    EdgeButton--small 
+    
+    button-text
+    blocked-text"> <span aria-hidden="true">Blocked</span> <span class="u-hiddenVisually">Blocked <span class="username u-dir u-textTruncate" dir="ltr">@<b>Joaovcs4</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--danger
+    EdgeButton--small 
+    
+    button-text
+    unblock-text"> <span aria-hidden="true">Unblock</span> <span class="u-hiddenVisually">Unblock <span class="username u-dir u-textTruncate" dir="ltr">@<b>Joaovcs4</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    pending-text"> <span aria-hidden="true">Pending</span> <span class="u-hiddenVisually">Pending follow request from <span class="username u-dir u-textTruncate" dir="ltr">@<b>Joaovcs4</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    cancel-text"> <span aria-hidden="true">Cancel</span> <span class="u-hiddenVisually">Cancel your follow request to <span class="username u-dir u-textTruncate" dir="ltr">@<b>Joaovcs4</b></span></span> </button> </span> 
+           <div class="dropdown "> 
+            <button type="button" class="user-dropdown dropdown-toggle js-dropdown-toggle js-link js-tooltip btn plain-btn small-user-dropdown" title="More user actions"> <span class="user-dropdown-icon Icon Icon--dotsVertical Icon--small"><span class="visuallyhidden">User actions</span></span> </button> 
+            <div class="dropdown-menu dropdown-menu--rightAlign is-autoCentered is-forceRight"> 
+             <div class="dropdown-caret"> 
+              <span class="caret-outer"></span> 
+              <span class="caret-inner"></span> 
+             </div> 
+             <ul> 
+              <li class="mention-text not-blocked"><button type="button" class="dropdown-link">Tweet to <span class="username u-dir u-textTruncate" dir="ltr">@<b>Joaovcs4</b></span></button></li> 
+              <li class="dm-text"><button type="button" class="dropdown-link">Send a Direct Message</button></li> 
+              <li class="list-text not-blocked"><button type="button" class="dropdown-link">Add or remove from lists…</button></li> 
+              <li class="dropdown-divider not-blocked"></li> 
+              <li class="mute-user-item"><button type="button" class="dropdown-link">Mute <span class="username u-dir u-textTruncate" dir="ltr">@<b>Joaovcs4</b></span></button></li> 
+              <li class="unmute-user-item"><button type="button" class="dropdown-link">Unmute <span class="username u-dir u-textTruncate" dir="ltr">@<b>Joaovcs4</b></span></button></li> 
+              <li class="block-text not-blocked"><button type="button" class="dropdown-link">Block <span class="username u-dir u-textTruncate" dir="ltr">@<b>Joaovcs4</b></span></button></li> 
+              <li class="unblock-text"><button type="button" class="dropdown-link">Unblock <span class="username u-dir u-textTruncate" dir="ltr">@<b>Joaovcs4</b></span></button></li> 
+              <li class="report-text"><button type="button" class="dropdown-link">Report <span class="username u-dir u-textTruncate" dir="ltr">@<b>Joaovcs4</b></span></button></li> 
+              <li class="hide-suggestion-text"><button type="button" class="dropdown-link">Hide this suggestion</button></li> 
+              <li class="dropdown-divider is-following"></li> 
+              <li class="retweet-on-text"><button type="button" class="dropdown-link">Turn on Retweets</button></li> 
+              <li class="retweet-off-text"><button type="button" class="dropdown-link">Turn off Retweets</button></li> 
+              <li class="device-notifications-on-text"><button type="button" class="dropdown-link">Turn on mobile notifications</button></li> 
+              <li class="device-notifications-off-text"><button type="button" class="dropdown-link">Turn off mobile notifications</button></li> 
+              <li class="dropdown-divider is-embeddable"></li> 
+              <li class="embed-profile"><button type="button" class="dropdown-link">Embed this Profile</button></li> 
+             </ul> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="ProfileCard-userFields"> 
+        <div class="ProfileNameTruncated account-group"> 
+         <div class="u-textTruncate u-inlineBlock"> 
+          <a class="fullname ProfileNameTruncated-link u-textInheritColor js-nav" href="/Joaovcs4" data-aria-label-part> Joaovcs_</a>
+         </div>
+         <span class="UserBadges"></span> 
+        </div> 
+        <span class="ProfileCard-screenname"> <a href="/Joaovcs4" class="ProfileCard-screennameLink u-linkComplex js-nav" data-aria-label-part> <span class="username u-dir" dir="ltr">@<b class="u-linkComplex-target">Joaovcs4</b></span> </a><span>‏</span> </span> 
+        <p class="ProfileCard-bio u-dir js-ellipsis" dir="ltr" data-aria-label-part></p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="Grid-cell u-size1of2 u-lg-size1of3 u-mb10" data-test-selector="ProfileTimelineUser" role="presentation"> 
+    <div class="js-stream-item" role="listitem" data-item-id="757044000658513921" id="stream-item-user-757044000658513921" data-item-type="user"> 
+     <div class="ProfileCard js-actionable-user
+    
+    
+    
+    
+    " data-screen-name="lenilsonlimada1" data-user-id="757044000658513921" data-feedback-token="" data-impression-id=""> 
+      <a class="ProfileCard-bg js-nav" href="/lenilsonlimada1" tabindex="-1" aria-hidden="true" style="
+    background-color: #1DA1F2;
+    "> </a> 
+      <div class="ProfileCard-content"> 
+       <a class="ProfileCard-avatarLink js-nav js-tooltip" href="/lenilsonlimada1" title="lenilson" tabindex="-1" aria-hidden="true"> <img class="ProfileCard-avatarImage js-action-profile-avatar" src="https://pbs.twimg.com/profile_images/1012438330779332609/r7cQXyg3_bigger.jpg" alt=""> </a> 
+       <div class="ProfileCard-actions"> 
+        <div class="ProfileCard-userActions with-rightCaret js-userActions"> 
+         <div class="UserActions   UserActions--small u-textLeft"> 
+          <div class="user-actions btn-group not-following not-muting " data-user-id="757044000658513921" data-screen-name="lenilsonlimada1" data-name="lenilson" data-protected="false"> 
+           <span class="UserActions-moreActions u-inlineBlock"> <button type="button" class="js-tooltip unmute-button btn small plain-btn" title="Unmute @lenilsonlimada1" data-placement="top"> <span class="Icon Icon--muted Icon--medium"><span class="visuallyhidden">Unmute <span class="username u-dir u-textTruncate" dir="ltr">@<b>lenilsonlimada1</b></span></span></span> </button><button type="button" class="first-load js-tooltip mute-button btn small plain-btn" title="Mute @lenilsonlimada1" data-placement="top"> <span class="Icon Icon--unmuted Icon--medium"><span class="visuallyhidden">Mute <span class="username u-dir u-textTruncate" dir="ltr">@<b>lenilsonlimada1</b></span></span></span> </button></span>
+           <span class="user-actions-follow-button js-follow-btn follow-button"> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    follow-text"> <span aria-hidden="true">Follow</span> <span class="u-hiddenVisually">Follow <span class="username u-dir u-textTruncate" dir="ltr">@<b>lenilsonlimada1</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--primary
+    EdgeButton--small 
+    
+    button-text
+    following-text"> <span aria-hidden="true">Following</span> <span class="u-hiddenVisually">Following <span class="username u-dir u-textTruncate" dir="ltr">@<b>lenilsonlimada1</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--danger
+    EdgeButton--small 
+    
+    button-text
+    unfollow-text"> <span aria-hidden="true">Unfollow</span> <span class="u-hiddenVisually">Unfollow <span class="username u-dir u-textTruncate" dir="ltr">@<b>lenilsonlimada1</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--invertedDanger
+    EdgeButton--small 
+    
+    button-text
+    blocked-text"> <span aria-hidden="true">Blocked</span> <span class="u-hiddenVisually">Blocked <span class="username u-dir u-textTruncate" dir="ltr">@<b>lenilsonlimada1</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--danger
+    EdgeButton--small 
+    
+    button-text
+    unblock-text"> <span aria-hidden="true">Unblock</span> <span class="u-hiddenVisually">Unblock <span class="username u-dir u-textTruncate" dir="ltr">@<b>lenilsonlimada1</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    pending-text"> <span aria-hidden="true">Pending</span> <span class="u-hiddenVisually">Pending follow request from <span class="username u-dir u-textTruncate" dir="ltr">@<b>lenilsonlimada1</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    cancel-text"> <span aria-hidden="true">Cancel</span> <span class="u-hiddenVisually">Cancel your follow request to <span class="username u-dir u-textTruncate" dir="ltr">@<b>lenilsonlimada1</b></span></span> </button> </span> 
+           <div class="dropdown "> 
+            <button type="button" class="user-dropdown dropdown-toggle js-dropdown-toggle js-link js-tooltip btn plain-btn small-user-dropdown" title="More user actions"> <span class="user-dropdown-icon Icon Icon--dotsVertical Icon--small"><span class="visuallyhidden">User actions</span></span> </button> 
+            <div class="dropdown-menu dropdown-menu--rightAlign is-autoCentered is-forceRight"> 
+             <div class="dropdown-caret"> 
+              <span class="caret-outer"></span> 
+              <span class="caret-inner"></span> 
+             </div> 
+             <ul> 
+              <li class="mention-text not-blocked"><button type="button" class="dropdown-link">Tweet to <span class="username u-dir u-textTruncate" dir="ltr">@<b>lenilsonlimada1</b></span></button></li> 
+              <li class="dm-text"><button type="button" class="dropdown-link">Send a Direct Message</button></li> 
+              <li class="list-text not-blocked"><button type="button" class="dropdown-link">Add or remove from lists…</button></li> 
+              <li class="dropdown-divider not-blocked"></li> 
+              <li class="mute-user-item"><button type="button" class="dropdown-link">Mute <span class="username u-dir u-textTruncate" dir="ltr">@<b>lenilsonlimada1</b></span></button></li> 
+              <li class="unmute-user-item"><button type="button" class="dropdown-link">Unmute <span class="username u-dir u-textTruncate" dir="ltr">@<b>lenilsonlimada1</b></span></button></li> 
+              <li class="block-text not-blocked"><button type="button" class="dropdown-link">Block <span class="username u-dir u-textTruncate" dir="ltr">@<b>lenilsonlimada1</b></span></button></li> 
+              <li class="unblock-text"><button type="button" class="dropdown-link">Unblock <span class="username u-dir u-textTruncate" dir="ltr">@<b>lenilsonlimada1</b></span></button></li> 
+              <li class="report-text"><button type="button" class="dropdown-link">Report <span class="username u-dir u-textTruncate" dir="ltr">@<b>lenilsonlimada1</b></span></button></li> 
+              <li class="hide-suggestion-text"><button type="button" class="dropdown-link">Hide this suggestion</button></li> 
+              <li class="dropdown-divider is-following"></li> 
+              <li class="retweet-on-text"><button type="button" class="dropdown-link">Turn on Retweets</button></li> 
+              <li class="retweet-off-text"><button type="button" class="dropdown-link">Turn off Retweets</button></li> 
+              <li class="device-notifications-on-text"><button type="button" class="dropdown-link">Turn on mobile notifications</button></li> 
+              <li class="device-notifications-off-text"><button type="button" class="dropdown-link">Turn off mobile notifications</button></li> 
+              <li class="dropdown-divider is-embeddable"></li> 
+              <li class="embed-profile"><button type="button" class="dropdown-link">Embed this Profile</button></li> 
+             </ul> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="ProfileCard-userFields"> 
+        <div class="ProfileNameTruncated account-group"> 
+         <div class="u-textTruncate u-inlineBlock"> 
+          <a class="fullname ProfileNameTruncated-link u-textInheritColor js-nav" href="/lenilsonlimada1" data-aria-label-part> lenilson</a>
+         </div>
+         <span class="UserBadges"></span> 
+        </div> 
+        <span class="ProfileCard-screenname"> <a href="/lenilsonlimada1" class="ProfileCard-screennameLink u-linkComplex js-nav" data-aria-label-part> <span class="username u-dir" dir="ltr">@<b class="u-linkComplex-target">lenilsonlimada1</b></span> </a><span>‏</span> </span> 
+        <p class="ProfileCard-bio u-dir js-ellipsis" dir="ltr" data-aria-label-part></p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="Grid-cell u-size1of2 u-lg-size1of3 u-mb10" data-test-selector="ProfileTimelineUser" role="presentation"> 
+    <div class="js-stream-item" role="listitem" data-item-id="1013989187975106560" id="stream-item-user-1013989187975106560" data-item-type="user"> 
+     <div class="ProfileCard js-actionable-user
+    
+    
+    
+    
+    " data-screen-name="Wesney10312575" data-user-id="1013989187975106560" data-feedback-token="" data-impression-id=""> 
+      <a class="ProfileCard-bg js-nav" href="/Wesney10312575" tabindex="-1" aria-hidden="true" style="
+    background-color: #1DA1F2;
+    "> </a> 
+      <div class="ProfileCard-content"> 
+       <a class="ProfileCard-avatarLink js-nav js-tooltip" href="/Wesney10312575" title="Wesney" tabindex="-1" aria-hidden="true"> <img class="ProfileCard-avatarImage js-action-profile-avatar" src="https://abs.twimg.com/sticky/default_profile_images/default_profile_bigger.png" alt=""> </a> 
+       <div class="ProfileCard-actions"> 
+        <div class="ProfileCard-userActions with-rightCaret js-userActions"> 
+         <div class="UserActions   UserActions--small u-textLeft"> 
+          <div class="user-actions btn-group not-following not-muting " data-user-id="1013989187975106560" data-screen-name="Wesney10312575" data-name="Wesney" data-protected="false"> 
+           <span class="UserActions-moreActions u-inlineBlock"> <button type="button" class="js-tooltip unmute-button btn small plain-btn" title="Unmute @Wesney10312575" data-placement="top"> <span class="Icon Icon--muted Icon--medium"><span class="visuallyhidden">Unmute <span class="username u-dir u-textTruncate" dir="ltr">@<b>Wesney10312575</b></span></span></span> </button><button type="button" class="first-load js-tooltip mute-button btn small plain-btn" title="Mute @Wesney10312575" data-placement="top"> <span class="Icon Icon--unmuted Icon--medium"><span class="visuallyhidden">Mute <span class="username u-dir u-textTruncate" dir="ltr">@<b>Wesney10312575</b></span></span></span> </button></span>
+           <span class="user-actions-follow-button js-follow-btn follow-button"> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    follow-text"> <span aria-hidden="true">Follow</span> <span class="u-hiddenVisually">Follow <span class="username u-dir u-textTruncate" dir="ltr">@<b>Wesney10312575</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--primary
+    EdgeButton--small 
+    
+    button-text
+    following-text"> <span aria-hidden="true">Following</span> <span class="u-hiddenVisually">Following <span class="username u-dir u-textTruncate" dir="ltr">@<b>Wesney10312575</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--danger
+    EdgeButton--small 
+    
+    button-text
+    unfollow-text"> <span aria-hidden="true">Unfollow</span> <span class="u-hiddenVisually">Unfollow <span class="username u-dir u-textTruncate" dir="ltr">@<b>Wesney10312575</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--invertedDanger
+    EdgeButton--small 
+    
+    button-text
+    blocked-text"> <span aria-hidden="true">Blocked</span> <span class="u-hiddenVisually">Blocked <span class="username u-dir u-textTruncate" dir="ltr">@<b>Wesney10312575</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--danger
+    EdgeButton--small 
+    
+    button-text
+    unblock-text"> <span aria-hidden="true">Unblock</span> <span class="u-hiddenVisually">Unblock <span class="username u-dir u-textTruncate" dir="ltr">@<b>Wesney10312575</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    pending-text"> <span aria-hidden="true">Pending</span> <span class="u-hiddenVisually">Pending follow request from <span class="username u-dir u-textTruncate" dir="ltr">@<b>Wesney10312575</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    cancel-text"> <span aria-hidden="true">Cancel</span> <span class="u-hiddenVisually">Cancel your follow request to <span class="username u-dir u-textTruncate" dir="ltr">@<b>Wesney10312575</b></span></span> </button> </span> 
+           <div class="dropdown "> 
+            <button type="button" class="user-dropdown dropdown-toggle js-dropdown-toggle js-link js-tooltip btn plain-btn small-user-dropdown" title="More user actions"> <span class="user-dropdown-icon Icon Icon--dotsVertical Icon--small"><span class="visuallyhidden">User actions</span></span> </button> 
+            <div class="dropdown-menu dropdown-menu--rightAlign is-autoCentered is-forceRight"> 
+             <div class="dropdown-caret"> 
+              <span class="caret-outer"></span> 
+              <span class="caret-inner"></span> 
+             </div> 
+             <ul> 
+              <li class="mention-text not-blocked"><button type="button" class="dropdown-link">Tweet to <span class="username u-dir u-textTruncate" dir="ltr">@<b>Wesney10312575</b></span></button></li> 
+              <li class="dm-text"><button type="button" class="dropdown-link">Send a Direct Message</button></li> 
+              <li class="list-text not-blocked"><button type="button" class="dropdown-link">Add or remove from lists…</button></li> 
+              <li class="dropdown-divider not-blocked"></li> 
+              <li class="mute-user-item"><button type="button" class="dropdown-link">Mute <span class="username u-dir u-textTruncate" dir="ltr">@<b>Wesney10312575</b></span></button></li> 
+              <li class="unmute-user-item"><button type="button" class="dropdown-link">Unmute <span class="username u-dir u-textTruncate" dir="ltr">@<b>Wesney10312575</b></span></button></li> 
+              <li class="block-text not-blocked"><button type="button" class="dropdown-link">Block <span class="username u-dir u-textTruncate" dir="ltr">@<b>Wesney10312575</b></span></button></li> 
+              <li class="unblock-text"><button type="button" class="dropdown-link">Unblock <span class="username u-dir u-textTruncate" dir="ltr">@<b>Wesney10312575</b></span></button></li> 
+              <li class="report-text"><button type="button" class="dropdown-link">Report <span class="username u-dir u-textTruncate" dir="ltr">@<b>Wesney10312575</b></span></button></li> 
+              <li class="hide-suggestion-text"><button type="button" class="dropdown-link">Hide this suggestion</button></li> 
+              <li class="dropdown-divider is-following"></li> 
+              <li class="retweet-on-text"><button type="button" class="dropdown-link">Turn on Retweets</button></li> 
+              <li class="retweet-off-text"><button type="button" class="dropdown-link">Turn off Retweets</button></li> 
+              <li class="device-notifications-on-text"><button type="button" class="dropdown-link">Turn on mobile notifications</button></li> 
+              <li class="device-notifications-off-text"><button type="button" class="dropdown-link">Turn off mobile notifications</button></li> 
+              <li class="dropdown-divider is-embeddable"></li> 
+              <li class="embed-profile"><button type="button" class="dropdown-link">Embed this Profile</button></li> 
+             </ul> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="ProfileCard-userFields"> 
+        <div class="ProfileNameTruncated account-group"> 
+         <div class="u-textTruncate u-inlineBlock"> 
+          <a class="fullname ProfileNameTruncated-link u-textInheritColor js-nav" href="/Wesney10312575" data-aria-label-part> Wesney</a>
+         </div>
+         <span class="UserBadges"></span> 
+        </div> 
+        <span class="ProfileCard-screenname"> <a href="/Wesney10312575" class="ProfileCard-screennameLink u-linkComplex js-nav" data-aria-label-part> <span class="username u-dir" dir="ltr">@<b class="u-linkComplex-target">Wesney10312575</b></span> </a><span>‏</span> </span> 
+        <p class="ProfileCard-bio u-dir js-ellipsis" dir="ltr" data-aria-label-part></p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="Grid Grid--withGutter" data-component-context="user" role="presentation"> 
+   <div class="Grid-cell u-size1of2 u-lg-size1of3 u-mb10" data-test-selector="ProfileTimelineUser" role="presentation"> 
+    <div class="js-stream-item" role="listitem" data-item-id="1013981610063073280" id="stream-item-user-1013981610063073280" data-item-type="user"> 
+     <div class="ProfileCard js-actionable-user
+    
+    
+    
+    
+    " data-screen-name="Destro71498926" data-user-id="1013981610063073280" data-feedback-token="" data-impression-id=""> 
+      <a class="ProfileCard-bg js-nav" href="/Destro71498926" tabindex="-1" aria-hidden="true" style="
+    background-color: #1DA1F2;
+    "> </a> 
+      <div class="ProfileCard-content"> 
+       <a class="ProfileCard-avatarLink js-nav js-tooltip" href="/Destro71498926" title="Destro" tabindex="-1" aria-hidden="true"> <img class="ProfileCard-avatarImage js-action-profile-avatar" src="https://abs.twimg.com/sticky/default_profile_images/default_profile_bigger.png" alt=""> </a> 
+       <div class="ProfileCard-actions"> 
+        <div class="ProfileCard-userActions with-rightCaret js-userActions"> 
+         <div class="UserActions   UserActions--small u-textLeft"> 
+          <div class="user-actions btn-group not-following not-muting " data-user-id="1013981610063073280" data-screen-name="Destro71498926" data-name="Destro" data-protected="false"> 
+           <span class="UserActions-moreActions u-inlineBlock"> <button type="button" class="js-tooltip unmute-button btn small plain-btn" title="Unmute @Destro71498926" data-placement="top"> <span class="Icon Icon--muted Icon--medium"><span class="visuallyhidden">Unmute <span class="username u-dir u-textTruncate" dir="ltr">@<b>Destro71498926</b></span></span></span> </button><button type="button" class="first-load js-tooltip mute-button btn small plain-btn" title="Mute @Destro71498926" data-placement="top"> <span class="Icon Icon--unmuted Icon--medium"><span class="visuallyhidden">Mute <span class="username u-dir u-textTruncate" dir="ltr">@<b>Destro71498926</b></span></span></span> </button></span>
+           <span class="user-actions-follow-button js-follow-btn follow-button"> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    follow-text"> <span aria-hidden="true">Follow</span> <span class="u-hiddenVisually">Follow <span class="username u-dir u-textTruncate" dir="ltr">@<b>Destro71498926</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--primary
+    EdgeButton--small 
+    
+    button-text
+    following-text"> <span aria-hidden="true">Following</span> <span class="u-hiddenVisually">Following <span class="username u-dir u-textTruncate" dir="ltr">@<b>Destro71498926</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--danger
+    EdgeButton--small 
+    
+    button-text
+    unfollow-text"> <span aria-hidden="true">Unfollow</span> <span class="u-hiddenVisually">Unfollow <span class="username u-dir u-textTruncate" dir="ltr">@<b>Destro71498926</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--invertedDanger
+    EdgeButton--small 
+    
+    button-text
+    blocked-text"> <span aria-hidden="true">Blocked</span> <span class="u-hiddenVisually">Blocked <span class="username u-dir u-textTruncate" dir="ltr">@<b>Destro71498926</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--danger
+    EdgeButton--small 
+    
+    button-text
+    unblock-text"> <span aria-hidden="true">Unblock</span> <span class="u-hiddenVisually">Unblock <span class="username u-dir u-textTruncate" dir="ltr">@<b>Destro71498926</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    pending-text"> <span aria-hidden="true">Pending</span> <span class="u-hiddenVisually">Pending follow request from <span class="username u-dir u-textTruncate" dir="ltr">@<b>Destro71498926</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    cancel-text"> <span aria-hidden="true">Cancel</span> <span class="u-hiddenVisually">Cancel your follow request to <span class="username u-dir u-textTruncate" dir="ltr">@<b>Destro71498926</b></span></span> </button> </span> 
+           <div class="dropdown "> 
+            <button type="button" class="user-dropdown dropdown-toggle js-dropdown-toggle js-link js-tooltip btn plain-btn small-user-dropdown" title="More user actions"> <span class="user-dropdown-icon Icon Icon--dotsVertical Icon--small"><span class="visuallyhidden">User actions</span></span> </button> 
+            <div class="dropdown-menu dropdown-menu--rightAlign is-autoCentered is-forceRight"> 
+             <div class="dropdown-caret"> 
+              <span class="caret-outer"></span> 
+              <span class="caret-inner"></span> 
+             </div> 
+             <ul> 
+              <li class="mention-text not-blocked"><button type="button" class="dropdown-link">Tweet to <span class="username u-dir u-textTruncate" dir="ltr">@<b>Destro71498926</b></span></button></li> 
+              <li class="dm-text"><button type="button" class="dropdown-link">Send a Direct Message</button></li> 
+              <li class="list-text not-blocked"><button type="button" class="dropdown-link">Add or remove from lists…</button></li> 
+              <li class="dropdown-divider not-blocked"></li> 
+              <li class="mute-user-item"><button type="button" class="dropdown-link">Mute <span class="username u-dir u-textTruncate" dir="ltr">@<b>Destro71498926</b></span></button></li> 
+              <li class="unmute-user-item"><button type="button" class="dropdown-link">Unmute <span class="username u-dir u-textTruncate" dir="ltr">@<b>Destro71498926</b></span></button></li> 
+              <li class="block-text not-blocked"><button type="button" class="dropdown-link">Block <span class="username u-dir u-textTruncate" dir="ltr">@<b>Destro71498926</b></span></button></li> 
+              <li class="unblock-text"><button type="button" class="dropdown-link">Unblock <span class="username u-dir u-textTruncate" dir="ltr">@<b>Destro71498926</b></span></button></li> 
+              <li class="report-text"><button type="button" class="dropdown-link">Report <span class="username u-dir u-textTruncate" dir="ltr">@<b>Destro71498926</b></span></button></li> 
+              <li class="hide-suggestion-text"><button type="button" class="dropdown-link">Hide this suggestion</button></li> 
+              <li class="dropdown-divider is-following"></li> 
+              <li class="retweet-on-text"><button type="button" class="dropdown-link">Turn on Retweets</button></li> 
+              <li class="retweet-off-text"><button type="button" class="dropdown-link">Turn off Retweets</button></li> 
+              <li class="device-notifications-on-text"><button type="button" class="dropdown-link">Turn on mobile notifications</button></li> 
+              <li class="device-notifications-off-text"><button type="button" class="dropdown-link">Turn off mobile notifications</button></li> 
+              <li class="dropdown-divider is-embeddable"></li> 
+              <li class="embed-profile"><button type="button" class="dropdown-link">Embed this Profile</button></li> 
+             </ul> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="ProfileCard-userFields"> 
+        <div class="ProfileNameTruncated account-group"> 
+         <div class="u-textTruncate u-inlineBlock"> 
+          <a class="fullname ProfileNameTruncated-link u-textInheritColor js-nav" href="/Destro71498926" data-aria-label-part> Destro</a>
+         </div>
+         <span class="UserBadges"></span> 
+        </div> 
+        <span class="ProfileCard-screenname"> <a href="/Destro71498926" class="ProfileCard-screennameLink u-linkComplex js-nav" data-aria-label-part> <span class="username u-dir" dir="ltr">@<b class="u-linkComplex-target">Destro71498926</b></span> </a><span>‏</span> </span> 
+        <p class="ProfileCard-bio u-dir js-ellipsis" dir="ltr" data-aria-label-part></p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="Grid-cell u-size1of2 u-lg-size1of3 u-mb10" data-test-selector="ProfileTimelineUser" role="presentation"> 
+    <div class="js-stream-item" role="listitem" data-item-id="1005861958887800832" id="stream-item-user-1005861958887800832" data-item-type="user"> 
+     <div class="ProfileCard js-actionable-user
+    
+    
+    
+    
+    " data-screen-name="Voado2" data-user-id="1005861958887800832" data-feedback-token="" data-impression-id=""> 
+      <a class="ProfileCard-bg js-nav" href="/Voado2" tabindex="-1" aria-hidden="true" style="
+    background-color: #1DA1F2;
+    "> </a> 
+      <div class="ProfileCard-content"> 
+       <a class="ProfileCard-avatarLink js-nav js-tooltip" href="/Voado2" title="Voado" tabindex="-1" aria-hidden="true"> <img class="ProfileCard-avatarImage js-action-profile-avatar" src="https://abs.twimg.com/sticky/default_profile_images/default_profile_bigger.png" alt=""> </a> 
+       <div class="ProfileCard-actions"> 
+        <div class="ProfileCard-userActions with-rightCaret js-userActions"> 
+         <div class="UserActions   UserActions--small u-textLeft"> 
+          <div class="user-actions btn-group not-following not-muting " data-user-id="1005861958887800832" data-screen-name="Voado2" data-name="Voado" data-protected="false"> 
+           <span class="UserActions-moreActions u-inlineBlock"> <button type="button" class="js-tooltip unmute-button btn small plain-btn" title="Unmute @Voado2" data-placement="top"> <span class="Icon Icon--muted Icon--medium"><span class="visuallyhidden">Unmute <span class="username u-dir u-textTruncate" dir="ltr">@<b>Voado2</b></span></span></span> </button><button type="button" class="first-load js-tooltip mute-button btn small plain-btn" title="Mute @Voado2" data-placement="top"> <span class="Icon Icon--unmuted Icon--medium"><span class="visuallyhidden">Mute <span class="username u-dir u-textTruncate" dir="ltr">@<b>Voado2</b></span></span></span> </button></span>
+           <span class="user-actions-follow-button js-follow-btn follow-button"> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    follow-text"> <span aria-hidden="true">Follow</span> <span class="u-hiddenVisually">Follow <span class="username u-dir u-textTruncate" dir="ltr">@<b>Voado2</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--primary
+    EdgeButton--small 
+    
+    button-text
+    following-text"> <span aria-hidden="true">Following</span> <span class="u-hiddenVisually">Following <span class="username u-dir u-textTruncate" dir="ltr">@<b>Voado2</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--danger
+    EdgeButton--small 
+    
+    button-text
+    unfollow-text"> <span aria-hidden="true">Unfollow</span> <span class="u-hiddenVisually">Unfollow <span class="username u-dir u-textTruncate" dir="ltr">@<b>Voado2</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--invertedDanger
+    EdgeButton--small 
+    
+    button-text
+    blocked-text"> <span aria-hidden="true">Blocked</span> <span class="u-hiddenVisually">Blocked <span class="username u-dir u-textTruncate" dir="ltr">@<b>Voado2</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--danger
+    EdgeButton--small 
+    
+    button-text
+    unblock-text"> <span aria-hidden="true">Unblock</span> <span class="u-hiddenVisually">Unblock <span class="username u-dir u-textTruncate" dir="ltr">@<b>Voado2</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    pending-text"> <span aria-hidden="true">Pending</span> <span class="u-hiddenVisually">Pending follow request from <span class="username u-dir u-textTruncate" dir="ltr">@<b>Voado2</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    cancel-text"> <span aria-hidden="true">Cancel</span> <span class="u-hiddenVisually">Cancel your follow request to <span class="username u-dir u-textTruncate" dir="ltr">@<b>Voado2</b></span></span> </button> </span> 
+           <div class="dropdown "> 
+            <button type="button" class="user-dropdown dropdown-toggle js-dropdown-toggle js-link js-tooltip btn plain-btn small-user-dropdown" title="More user actions"> <span class="user-dropdown-icon Icon Icon--dotsVertical Icon--small"><span class="visuallyhidden">User actions</span></span> </button> 
+            <div class="dropdown-menu dropdown-menu--rightAlign is-autoCentered is-forceRight"> 
+             <div class="dropdown-caret"> 
+              <span class="caret-outer"></span> 
+              <span class="caret-inner"></span> 
+             </div> 
+             <ul> 
+              <li class="mention-text not-blocked"><button type="button" class="dropdown-link">Tweet to <span class="username u-dir u-textTruncate" dir="ltr">@<b>Voado2</b></span></button></li> 
+              <li class="dm-text"><button type="button" class="dropdown-link">Send a Direct Message</button></li> 
+              <li class="list-text not-blocked"><button type="button" class="dropdown-link">Add or remove from lists…</button></li> 
+              <li class="dropdown-divider not-blocked"></li> 
+              <li class="mute-user-item"><button type="button" class="dropdown-link">Mute <span class="username u-dir u-textTruncate" dir="ltr">@<b>Voado2</b></span></button></li> 
+              <li class="unmute-user-item"><button type="button" class="dropdown-link">Unmute <span class="username u-dir u-textTruncate" dir="ltr">@<b>Voado2</b></span></button></li> 
+              <li class="block-text not-blocked"><button type="button" class="dropdown-link">Block <span class="username u-dir u-textTruncate" dir="ltr">@<b>Voado2</b></span></button></li> 
+              <li class="unblock-text"><button type="button" class="dropdown-link">Unblock <span class="username u-dir u-textTruncate" dir="ltr">@<b>Voado2</b></span></button></li> 
+              <li class="report-text"><button type="button" class="dropdown-link">Report <span class="username u-dir u-textTruncate" dir="ltr">@<b>Voado2</b></span></button></li> 
+              <li class="hide-suggestion-text"><button type="button" class="dropdown-link">Hide this suggestion</button></li> 
+              <li class="dropdown-divider is-following"></li> 
+              <li class="retweet-on-text"><button type="button" class="dropdown-link">Turn on Retweets</button></li> 
+              <li class="retweet-off-text"><button type="button" class="dropdown-link">Turn off Retweets</button></li> 
+              <li class="device-notifications-on-text"><button type="button" class="dropdown-link">Turn on mobile notifications</button></li> 
+              <li class="device-notifications-off-text"><button type="button" class="dropdown-link">Turn off mobile notifications</button></li> 
+              <li class="dropdown-divider is-embeddable"></li> 
+              <li class="embed-profile"><button type="button" class="dropdown-link">Embed this Profile</button></li> 
+             </ul> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="ProfileCard-userFields"> 
+        <div class="ProfileNameTruncated account-group"> 
+         <div class="u-textTruncate u-inlineBlock"> 
+          <a class="fullname ProfileNameTruncated-link u-textInheritColor js-nav" href="/Voado2" data-aria-label-part> Voado</a>
+         </div>
+         <span class="UserBadges"></span> 
+        </div> 
+        <span class="ProfileCard-screenname"> <a href="/Voado2" class="ProfileCard-screennameLink u-linkComplex js-nav" data-aria-label-part> <span class="username u-dir" dir="ltr">@<b class="u-linkComplex-target">Voado2</b></span> </a><span>‏</span> </span> 
+        <p class="ProfileCard-bio u-dir js-ellipsis" dir="ltr" data-aria-label-part></p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="Grid-cell u-size1of2 u-lg-size1of3 u-mb10" data-test-selector="ProfileTimelineUser" role="presentation"> 
+    <div class="js-stream-item" role="listitem" data-item-id="1013975974860525568" id="stream-item-user-1013975974860525568" data-item-type="user"> 
+     <div class="ProfileCard js-actionable-user
+    
+    
+    
+    
+    " data-screen-name="kaylanedeavila" data-user-id="1013975974860525568" data-feedback-token="" data-impression-id=""> 
+      <a class="ProfileCard-bg js-nav" href="/kaylanedeavila" tabindex="-1" aria-hidden="true" style="
+    background-color: #1DA1F2;
+    background-image: url(https://pbs.twimg.com/profile_banners/1013975974860525568/1530589113/600x200);"> </a> 
+      <div class="ProfileCard-content"> 
+       <a class="ProfileCard-avatarLink js-nav js-tooltip" href="/kaylanedeavila" title="kaylane🌹" tabindex="-1" aria-hidden="true"> <img class="ProfileCard-avatarImage js-action-profile-avatar" src="https://pbs.twimg.com/profile_images/1013993977845112833/hVxjtYtK_bigger.jpg" alt=""> </a> 
+       <div class="ProfileCard-actions"> 
+        <div class="ProfileCard-userActions with-rightCaret js-userActions"> 
+         <div class="UserActions   UserActions--small u-textLeft"> 
+          <div class="user-actions btn-group not-following not-muting can-dm " data-user-id="1013975974860525568" data-screen-name="kaylanedeavila" data-name="kaylane🌹" data-protected="false"> 
+           <span class="UserActions-moreActions u-inlineBlock"> <button type="button" class="js-tooltip unmute-button btn small plain-btn" title="Unmute @kaylanedeavila" data-placement="top"> <span class="Icon Icon--muted Icon--medium"><span class="visuallyhidden">Unmute <span class="username u-dir u-textTruncate" dir="ltr">@<b>kaylanedeavila</b></span></span></span> </button><button type="button" class="first-load js-tooltip mute-button btn small plain-btn" title="Mute @kaylanedeavila" data-placement="top"> <span class="Icon Icon--unmuted Icon--medium"><span class="visuallyhidden">Mute <span class="username u-dir u-textTruncate" dir="ltr">@<b>kaylanedeavila</b></span></span></span> </button></span>
+           <span class="user-actions-follow-button js-follow-btn follow-button"> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    follow-text"> <span aria-hidden="true">Follow</span> <span class="u-hiddenVisually">Follow <span class="username u-dir u-textTruncate" dir="ltr">@<b>kaylanedeavila</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--primary
+    EdgeButton--small 
+    
+    button-text
+    following-text"> <span aria-hidden="true">Following</span> <span class="u-hiddenVisually">Following <span class="username u-dir u-textTruncate" dir="ltr">@<b>kaylanedeavila</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--danger
+    EdgeButton--small 
+    
+    button-text
+    unfollow-text"> <span aria-hidden="true">Unfollow</span> <span class="u-hiddenVisually">Unfollow <span class="username u-dir u-textTruncate" dir="ltr">@<b>kaylanedeavila</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--invertedDanger
+    EdgeButton--small 
+    
+    button-text
+    blocked-text"> <span aria-hidden="true">Blocked</span> <span class="u-hiddenVisually">Blocked <span class="username u-dir u-textTruncate" dir="ltr">@<b>kaylanedeavila</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--danger
+    EdgeButton--small 
+    
+    button-text
+    unblock-text"> <span aria-hidden="true">Unblock</span> <span class="u-hiddenVisually">Unblock <span class="username u-dir u-textTruncate" dir="ltr">@<b>kaylanedeavila</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    pending-text"> <span aria-hidden="true">Pending</span> <span class="u-hiddenVisually">Pending follow request from <span class="username u-dir u-textTruncate" dir="ltr">@<b>kaylanedeavila</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    cancel-text"> <span aria-hidden="true">Cancel</span> <span class="u-hiddenVisually">Cancel your follow request to <span class="username u-dir u-textTruncate" dir="ltr">@<b>kaylanedeavila</b></span></span> </button> </span> 
+           <div class="dropdown "> 
+            <button type="button" class="user-dropdown dropdown-toggle js-dropdown-toggle js-link js-tooltip btn plain-btn small-user-dropdown" title="More user actions"> <span class="user-dropdown-icon Icon Icon--dotsVertical Icon--small"><span class="visuallyhidden">User actions</span></span> </button> 
+            <div class="dropdown-menu dropdown-menu--rightAlign is-autoCentered is-forceRight"> 
+             <div class="dropdown-caret"> 
+              <span class="caret-outer"></span> 
+              <span class="caret-inner"></span> 
+             </div> 
+             <ul> 
+              <li class="mention-text not-blocked"><button type="button" class="dropdown-link">Tweet to <span class="username u-dir u-textTruncate" dir="ltr">@<b>kaylanedeavila</b></span></button></li> 
+              <li class="dm-text"><button type="button" class="dropdown-link">Send a Direct Message</button></li> 
+              <li class="list-text not-blocked"><button type="button" class="dropdown-link">Add or remove from lists…</button></li> 
+              <li class="dropdown-divider not-blocked"></li> 
+              <li class="mute-user-item"><button type="button" class="dropdown-link">Mute <span class="username u-dir u-textTruncate" dir="ltr">@<b>kaylanedeavila</b></span></button></li> 
+              <li class="unmute-user-item"><button type="button" class="dropdown-link">Unmute <span class="username u-dir u-textTruncate" dir="ltr">@<b>kaylanedeavila</b></span></button></li> 
+              <li class="block-text not-blocked"><button type="button" class="dropdown-link">Block <span class="username u-dir u-textTruncate" dir="ltr">@<b>kaylanedeavila</b></span></button></li> 
+              <li class="unblock-text"><button type="button" class="dropdown-link">Unblock <span class="username u-dir u-textTruncate" dir="ltr">@<b>kaylanedeavila</b></span></button></li> 
+              <li class="report-text"><button type="button" class="dropdown-link">Report <span class="username u-dir u-textTruncate" dir="ltr">@<b>kaylanedeavila</b></span></button></li> 
+              <li class="hide-suggestion-text"><button type="button" class="dropdown-link">Hide this suggestion</button></li> 
+              <li class="dropdown-divider is-following"></li> 
+              <li class="retweet-on-text"><button type="button" class="dropdown-link">Turn on Retweets</button></li> 
+              <li class="retweet-off-text"><button type="button" class="dropdown-link">Turn off Retweets</button></li> 
+              <li class="device-notifications-on-text"><button type="button" class="dropdown-link">Turn on mobile notifications</button></li> 
+              <li class="device-notifications-off-text"><button type="button" class="dropdown-link">Turn off mobile notifications</button></li> 
+              <li class="dropdown-divider is-embeddable"></li> 
+              <li class="embed-profile"><button type="button" class="dropdown-link">Embed this Profile</button></li> 
+             </ul> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="ProfileCard-userFields"> 
+        <div class="ProfileNameTruncated account-group"> 
+         <div class="u-textTruncate u-inlineBlock"> 
+          <a class="fullname ProfileNameTruncated-link u-textInheritColor js-nav" href="/kaylanedeavila" data-aria-label-part> kaylane<span class="Emoji Emoji--forLinks" style="background-image:url('https://abs.twimg.com/emoji/v2/72x72/1f339.png')" title="Rose" aria-label="Emoji: Rose">&nbsp;</span><span class="visuallyhidden" aria-hidden="true">🌹</span></a>
+         </div>
+         <span class="UserBadges"></span> 
+        </div> 
+        <span class="ProfileCard-screenname"> <a href="/kaylanedeavila" class="ProfileCard-screennameLink u-linkComplex js-nav" data-aria-label-part> <span class="username u-dir" dir="ltr">@<b class="u-linkComplex-target">kaylanedeavila</b></span> </a><span>‏</span> </span> 
+        <p class="ProfileCard-bio u-dir js-ellipsis" dir="ltr" data-aria-label-part>O mundo precisa de paz ,colabore fechando sua boca <img class="Emoji Emoji--forText" src="https://abs.twimg.com/emoji/v2/72x72/2600.png" draggable="false" alt="☀️" title="Sun with rays" aria-label="Emoji: Sun with rays"><img class="Emoji Emoji--forText" src="https://abs.twimg.com/emoji/v2/72x72/1f609.png" draggable="false" alt="😉" title="Winking face" aria-label="Emoji: Winking face">insta: kaa_avilaa</p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="Grid-cell u-size1of2 u-lg-size1of3 u-mb10" data-test-selector="ProfileTimelineUser" role="presentation"> 
+    <div class="js-stream-item" role="listitem" data-item-id="1013964485370023936" id="stream-item-user-1013964485370023936" data-item-type="user"> 
+     <div class="ProfileCard js-actionable-user
+    
+    
+    
+    
+    " data-screen-name="ComicShrimp77" data-user-id="1013964485370023936" data-feedback-token="" data-impression-id=""> 
+      <a class="ProfileCard-bg js-nav" href="/ComicShrimp77" tabindex="-1" aria-hidden="true" style="
+    background-color: #FAB81E;
+    background-image: url(https://pbs.twimg.com/profile_banners/1013964485370023936/1530583376/600x200);"> </a> 
+      <div class="ProfileCard-content"> 
+       <a class="ProfileCard-avatarLink js-nav js-tooltip" href="/ComicShrimp77" title="Mário Victor Ribeiro Silva" tabindex="-1" aria-hidden="true"> <img class="ProfileCard-avatarImage js-action-profile-avatar" src="https://pbs.twimg.com/profile_images/1013966724796960768/927akMXR_bigger.jpg" alt=""> </a> 
+       <div class="ProfileCard-actions"> 
+        <div class="ProfileCard-userActions with-rightCaret js-userActions"> 
+         <div class="UserActions   UserActions--small u-textLeft"> 
+          <div class="user-actions btn-group not-following not-muting can-dm " data-user-id="1013964485370023936" data-screen-name="ComicShrimp77" data-name="Mário Victor Ribeiro Silva" data-protected="false"> 
+           <span class="UserActions-moreActions u-inlineBlock"> <button type="button" class="js-tooltip unmute-button btn small plain-btn" title="Unmute @ComicShrimp77" data-placement="top"> <span class="Icon Icon--muted Icon--medium"><span class="visuallyhidden">Unmute <span class="username u-dir u-textTruncate" dir="ltr">@<b>ComicShrimp77</b></span></span></span> </button><button type="button" class="first-load js-tooltip mute-button btn small plain-btn" title="Mute @ComicShrimp77" data-placement="top"> <span class="Icon Icon--unmuted Icon--medium"><span class="visuallyhidden">Mute <span class="username u-dir u-textTruncate" dir="ltr">@<b>ComicShrimp77</b></span></span></span> </button></span>
+           <span class="user-actions-follow-button js-follow-btn follow-button"> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    follow-text"> <span aria-hidden="true">Follow</span> <span class="u-hiddenVisually">Follow <span class="username u-dir u-textTruncate" dir="ltr">@<b>ComicShrimp77</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--primary
+    EdgeButton--small 
+    
+    button-text
+    following-text"> <span aria-hidden="true">Following</span> <span class="u-hiddenVisually">Following <span class="username u-dir u-textTruncate" dir="ltr">@<b>ComicShrimp77</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--danger
+    EdgeButton--small 
+    
+    button-text
+    unfollow-text"> <span aria-hidden="true">Unfollow</span> <span class="u-hiddenVisually">Unfollow <span class="username u-dir u-textTruncate" dir="ltr">@<b>ComicShrimp77</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--invertedDanger
+    EdgeButton--small 
+    
+    button-text
+    blocked-text"> <span aria-hidden="true">Blocked</span> <span class="u-hiddenVisually">Blocked <span class="username u-dir u-textTruncate" dir="ltr">@<b>ComicShrimp77</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--danger
+    EdgeButton--small 
+    
+    button-text
+    unblock-text"> <span aria-hidden="true">Unblock</span> <span class="u-hiddenVisually">Unblock <span class="username u-dir u-textTruncate" dir="ltr">@<b>ComicShrimp77</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    pending-text"> <span aria-hidden="true">Pending</span> <span class="u-hiddenVisually">Pending follow request from <span class="username u-dir u-textTruncate" dir="ltr">@<b>ComicShrimp77</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    cancel-text"> <span aria-hidden="true">Cancel</span> <span class="u-hiddenVisually">Cancel your follow request to <span class="username u-dir u-textTruncate" dir="ltr">@<b>ComicShrimp77</b></span></span> </button> </span> 
+           <div class="dropdown "> 
+            <button type="button" class="user-dropdown dropdown-toggle js-dropdown-toggle js-link js-tooltip btn plain-btn small-user-dropdown" title="More user actions"> <span class="user-dropdown-icon Icon Icon--dotsVertical Icon--small"><span class="visuallyhidden">User actions</span></span> </button> 
+            <div class="dropdown-menu dropdown-menu--rightAlign is-autoCentered is-forceRight"> 
+             <div class="dropdown-caret"> 
+              <span class="caret-outer"></span> 
+              <span class="caret-inner"></span> 
+             </div> 
+             <ul> 
+              <li class="mention-text not-blocked"><button type="button" class="dropdown-link">Tweet to <span class="username u-dir u-textTruncate" dir="ltr">@<b>ComicShrimp77</b></span></button></li> 
+              <li class="dm-text"><button type="button" class="dropdown-link">Send a Direct Message</button></li> 
+              <li class="list-text not-blocked"><button type="button" class="dropdown-link">Add or remove from lists…</button></li> 
+              <li class="dropdown-divider not-blocked"></li> 
+              <li class="mute-user-item"><button type="button" class="dropdown-link">Mute <span class="username u-dir u-textTruncate" dir="ltr">@<b>ComicShrimp77</b></span></button></li> 
+              <li class="unmute-user-item"><button type="button" class="dropdown-link">Unmute <span class="username u-dir u-textTruncate" dir="ltr">@<b>ComicShrimp77</b></span></button></li> 
+              <li class="block-text not-blocked"><button type="button" class="dropdown-link">Block <span class="username u-dir u-textTruncate" dir="ltr">@<b>ComicShrimp77</b></span></button></li> 
+              <li class="unblock-text"><button type="button" class="dropdown-link">Unblock <span class="username u-dir u-textTruncate" dir="ltr">@<b>ComicShrimp77</b></span></button></li> 
+              <li class="report-text"><button type="button" class="dropdown-link">Report <span class="username u-dir u-textTruncate" dir="ltr">@<b>ComicShrimp77</b></span></button></li> 
+              <li class="hide-suggestion-text"><button type="button" class="dropdown-link">Hide this suggestion</button></li> 
+              <li class="dropdown-divider is-following"></li> 
+              <li class="retweet-on-text"><button type="button" class="dropdown-link">Turn on Retweets</button></li> 
+              <li class="retweet-off-text"><button type="button" class="dropdown-link">Turn off Retweets</button></li> 
+              <li class="device-notifications-on-text"><button type="button" class="dropdown-link">Turn on mobile notifications</button></li> 
+              <li class="device-notifications-off-text"><button type="button" class="dropdown-link">Turn off mobile notifications</button></li> 
+              <li class="dropdown-divider is-embeddable"></li> 
+              <li class="embed-profile"><button type="button" class="dropdown-link">Embed this Profile</button></li> 
+             </ul> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="ProfileCard-userFields"> 
+        <div class="ProfileNameTruncated account-group"> 
+         <div class="u-textTruncate u-inlineBlock"> 
+          <a class="fullname ProfileNameTruncated-link u-textInheritColor js-nav" href="/ComicShrimp77" data-aria-label-part> Mário Victor Ribeiro Silva</a>
+         </div>
+         <span class="UserBadges"></span> 
+        </div> 
+        <span class="ProfileCard-screenname"> <a href="/ComicShrimp77" class="ProfileCard-screennameLink u-linkComplex js-nav" data-aria-label-part> <span class="username u-dir" dir="ltr">@<b class="u-linkComplex-target">ComicShrimp77</b></span> </a><span>‏</span> </span> 
+        <p class="ProfileCard-bio u-dir js-ellipsis" dir="ltr" data-aria-label-part>Gamertag : ComicShrimp77</p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="Grid-cell u-size1of2 u-lg-size1of3 u-mb10" data-test-selector="ProfileTimelineUser" role="presentation"> 
+    <div class="js-stream-item" role="listitem" data-item-id="1013244430063677441" id="stream-item-user-1013244430063677441" data-item-type="user"> 
+     <div class="ProfileCard js-actionable-user
+    
+    
+    
+    
+    " data-screen-name="Joao92423365" data-user-id="1013244430063677441" data-feedback-token="" data-impression-id=""> 
+      <a class="ProfileCard-bg js-nav" href="/Joao92423365" tabindex="-1" aria-hidden="true" style="
+    background-color: #1DA1F2;
+    "> </a> 
+      <div class="ProfileCard-content"> 
+       <a class="ProfileCard-avatarLink js-nav js-tooltip" href="/Joao92423365" title="Joao" tabindex="-1" aria-hidden="true"> <img class="ProfileCard-avatarImage js-action-profile-avatar" src="https://abs.twimg.com/sticky/default_profile_images/default_profile_bigger.png" alt=""> </a> 
+       <div class="ProfileCard-actions"> 
+        <div class="ProfileCard-userActions with-rightCaret js-userActions"> 
+         <div class="UserActions   UserActions--small u-textLeft"> 
+          <div class="user-actions btn-group not-following not-muting " data-user-id="1013244430063677441" data-screen-name="Joao92423365" data-name="Joao" data-protected="false"> 
+           <span class="UserActions-moreActions u-inlineBlock"> <button type="button" class="js-tooltip unmute-button btn small plain-btn" title="Unmute @Joao92423365" data-placement="top"> <span class="Icon Icon--muted Icon--medium"><span class="visuallyhidden">Unmute <span class="username u-dir u-textTruncate" dir="ltr">@<b>Joao92423365</b></span></span></span> </button><button type="button" class="first-load js-tooltip mute-button btn small plain-btn" title="Mute @Joao92423365" data-placement="top"> <span class="Icon Icon--unmuted Icon--medium"><span class="visuallyhidden">Mute <span class="username u-dir u-textTruncate" dir="ltr">@<b>Joao92423365</b></span></span></span> </button></span>
+           <span class="user-actions-follow-button js-follow-btn follow-button"> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    follow-text"> <span aria-hidden="true">Follow</span> <span class="u-hiddenVisually">Follow <span class="username u-dir u-textTruncate" dir="ltr">@<b>Joao92423365</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--primary
+    EdgeButton--small 
+    
+    button-text
+    following-text"> <span aria-hidden="true">Following</span> <span class="u-hiddenVisually">Following <span class="username u-dir u-textTruncate" dir="ltr">@<b>Joao92423365</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--danger
+    EdgeButton--small 
+    
+    button-text
+    unfollow-text"> <span aria-hidden="true">Unfollow</span> <span class="u-hiddenVisually">Unfollow <span class="username u-dir u-textTruncate" dir="ltr">@<b>Joao92423365</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--invertedDanger
+    EdgeButton--small 
+    
+    button-text
+    blocked-text"> <span aria-hidden="true">Blocked</span> <span class="u-hiddenVisually">Blocked <span class="username u-dir u-textTruncate" dir="ltr">@<b>Joao92423365</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--danger
+    EdgeButton--small 
+    
+    button-text
+    unblock-text"> <span aria-hidden="true">Unblock</span> <span class="u-hiddenVisually">Unblock <span class="username u-dir u-textTruncate" dir="ltr">@<b>Joao92423365</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    pending-text"> <span aria-hidden="true">Pending</span> <span class="u-hiddenVisually">Pending follow request from <span class="username u-dir u-textTruncate" dir="ltr">@<b>Joao92423365</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    cancel-text"> <span aria-hidden="true">Cancel</span> <span class="u-hiddenVisually">Cancel your follow request to <span class="username u-dir u-textTruncate" dir="ltr">@<b>Joao92423365</b></span></span> </button> </span> 
+           <div class="dropdown "> 
+            <button type="button" class="user-dropdown dropdown-toggle js-dropdown-toggle js-link js-tooltip btn plain-btn small-user-dropdown" title="More user actions"> <span class="user-dropdown-icon Icon Icon--dotsVertical Icon--small"><span class="visuallyhidden">User actions</span></span> </button> 
+            <div class="dropdown-menu dropdown-menu--rightAlign is-autoCentered is-forceRight"> 
+             <div class="dropdown-caret"> 
+              <span class="caret-outer"></span> 
+              <span class="caret-inner"></span> 
+             </div> 
+             <ul> 
+              <li class="mention-text not-blocked"><button type="button" class="dropdown-link">Tweet to <span class="username u-dir u-textTruncate" dir="ltr">@<b>Joao92423365</b></span></button></li> 
+              <li class="dm-text"><button type="button" class="dropdown-link">Send a Direct Message</button></li> 
+              <li class="list-text not-blocked"><button type="button" class="dropdown-link">Add or remove from lists…</button></li> 
+              <li class="dropdown-divider not-blocked"></li> 
+              <li class="mute-user-item"><button type="button" class="dropdown-link">Mute <span class="username u-dir u-textTruncate" dir="ltr">@<b>Joao92423365</b></span></button></li> 
+              <li class="unmute-user-item"><button type="button" class="dropdown-link">Unmute <span class="username u-dir u-textTruncate" dir="ltr">@<b>Joao92423365</b></span></button></li> 
+              <li class="block-text not-blocked"><button type="button" class="dropdown-link">Block <span class="username u-dir u-textTruncate" dir="ltr">@<b>Joao92423365</b></span></button></li> 
+              <li class="unblock-text"><button type="button" class="dropdown-link">Unblock <span class="username u-dir u-textTruncate" dir="ltr">@<b>Joao92423365</b></span></button></li> 
+              <li class="report-text"><button type="button" class="dropdown-link">Report <span class="username u-dir u-textTruncate" dir="ltr">@<b>Joao92423365</b></span></button></li> 
+              <li class="hide-suggestion-text"><button type="button" class="dropdown-link">Hide this suggestion</button></li> 
+              <li class="dropdown-divider is-following"></li> 
+              <li class="retweet-on-text"><button type="button" class="dropdown-link">Turn on Retweets</button></li> 
+              <li class="retweet-off-text"><button type="button" class="dropdown-link">Turn off Retweets</button></li> 
+              <li class="device-notifications-on-text"><button type="button" class="dropdown-link">Turn on mobile notifications</button></li> 
+              <li class="device-notifications-off-text"><button type="button" class="dropdown-link">Turn off mobile notifications</button></li> 
+              <li class="dropdown-divider is-embeddable"></li> 
+              <li class="embed-profile"><button type="button" class="dropdown-link">Embed this Profile</button></li> 
+             </ul> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="ProfileCard-userFields"> 
+        <div class="ProfileNameTruncated account-group"> 
+         <div class="u-textTruncate u-inlineBlock"> 
+          <a class="fullname ProfileNameTruncated-link u-textInheritColor js-nav" href="/Joao92423365" data-aria-label-part> Joao</a>
+         </div>
+         <span class="UserBadges"></span> 
+        </div> 
+        <span class="ProfileCard-screenname"> <a href="/Joao92423365" class="ProfileCard-screennameLink u-linkComplex js-nav" data-aria-label-part> <span class="username u-dir" dir="ltr">@<b class="u-linkComplex-target">Joao92423365</b></span> </a><span>‏</span> </span> 
+        <p class="ProfileCard-bio u-dir js-ellipsis" dir="ltr" data-aria-label-part></p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="Grid-cell u-size1of2 u-lg-size1of3 u-mb10" data-test-selector="ProfileTimelineUser" role="presentation"> 
+    <div class="js-stream-item" role="listitem" data-item-id="1003107403162890240" id="stream-item-user-1003107403162890240" data-item-type="user"> 
+     <div class="ProfileCard js-actionable-user
+    
+    
+    
+    
+    " data-screen-name="PedroAu80653666" data-user-id="1003107403162890240" data-feedback-token="" data-impression-id=""> 
+      <a class="ProfileCard-bg js-nav" href="/PedroAu80653666" tabindex="-1" aria-hidden="true" style="
+    background-color: #1DA1F2;
+    background-image: url(https://pbs.twimg.com/profile_banners/1003107403162890240/1527997954/600x200);"> </a> 
+      <div class="ProfileCard-content"> 
+       <a class="ProfileCard-avatarLink js-nav js-tooltip" href="/PedroAu80653666" title="Pedro Augusto" tabindex="-1" aria-hidden="true"> <img class="ProfileCard-avatarImage js-action-profile-avatar" src="https://pbs.twimg.com/profile_images/1003122200717688838/msYZ9LWb_bigger.jpg" alt=""> </a> 
+       <div class="ProfileCard-actions"> 
+        <div class="ProfileCard-userActions with-rightCaret js-userActions"> 
+         <div class="UserActions   UserActions--small u-textLeft"> 
+          <div class="user-actions btn-group not-following not-muting " data-user-id="1003107403162890240" data-screen-name="PedroAu80653666" data-name="Pedro Augusto" data-protected="false"> 
+           <span class="UserActions-moreActions u-inlineBlock"> <button type="button" class="js-tooltip unmute-button btn small plain-btn" title="Unmute @PedroAu80653666" data-placement="top"> <span class="Icon Icon--muted Icon--medium"><span class="visuallyhidden">Unmute <span class="username u-dir u-textTruncate" dir="ltr">@<b>PedroAu80653666</b></span></span></span> </button><button type="button" class="first-load js-tooltip mute-button btn small plain-btn" title="Mute @PedroAu80653666" data-placement="top"> <span class="Icon Icon--unmuted Icon--medium"><span class="visuallyhidden">Mute <span class="username u-dir u-textTruncate" dir="ltr">@<b>PedroAu80653666</b></span></span></span> </button></span>
+           <span class="user-actions-follow-button js-follow-btn follow-button"> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    follow-text"> <span aria-hidden="true">Follow</span> <span class="u-hiddenVisually">Follow <span class="username u-dir u-textTruncate" dir="ltr">@<b>PedroAu80653666</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--primary
+    EdgeButton--small 
+    
+    button-text
+    following-text"> <span aria-hidden="true">Following</span> <span class="u-hiddenVisually">Following <span class="username u-dir u-textTruncate" dir="ltr">@<b>PedroAu80653666</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--danger
+    EdgeButton--small 
+    
+    button-text
+    unfollow-text"> <span aria-hidden="true">Unfollow</span> <span class="u-hiddenVisually">Unfollow <span class="username u-dir u-textTruncate" dir="ltr">@<b>PedroAu80653666</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--invertedDanger
+    EdgeButton--small 
+    
+    button-text
+    blocked-text"> <span aria-hidden="true">Blocked</span> <span class="u-hiddenVisually">Blocked <span class="username u-dir u-textTruncate" dir="ltr">@<b>PedroAu80653666</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--danger
+    EdgeButton--small 
+    
+    button-text
+    unblock-text"> <span aria-hidden="true">Unblock</span> <span class="u-hiddenVisually">Unblock <span class="username u-dir u-textTruncate" dir="ltr">@<b>PedroAu80653666</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    pending-text"> <span aria-hidden="true">Pending</span> <span class="u-hiddenVisually">Pending follow request from <span class="username u-dir u-textTruncate" dir="ltr">@<b>PedroAu80653666</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    cancel-text"> <span aria-hidden="true">Cancel</span> <span class="u-hiddenVisually">Cancel your follow request to <span class="username u-dir u-textTruncate" dir="ltr">@<b>PedroAu80653666</b></span></span> </button> </span> 
+           <div class="dropdown "> 
+            <button type="button" class="user-dropdown dropdown-toggle js-dropdown-toggle js-link js-tooltip btn plain-btn small-user-dropdown" title="More user actions"> <span class="user-dropdown-icon Icon Icon--dotsVertical Icon--small"><span class="visuallyhidden">User actions</span></span> </button> 
+            <div class="dropdown-menu dropdown-menu--rightAlign is-autoCentered is-forceRight"> 
+             <div class="dropdown-caret"> 
+              <span class="caret-outer"></span> 
+              <span class="caret-inner"></span> 
+             </div> 
+             <ul> 
+              <li class="mention-text not-blocked"><button type="button" class="dropdown-link">Tweet to <span class="username u-dir u-textTruncate" dir="ltr">@<b>PedroAu80653666</b></span></button></li> 
+              <li class="dm-text"><button type="button" class="dropdown-link">Send a Direct Message</button></li> 
+              <li class="list-text not-blocked"><button type="button" class="dropdown-link">Add or remove from lists…</button></li> 
+              <li class="dropdown-divider not-blocked"></li> 
+              <li class="mute-user-item"><button type="button" class="dropdown-link">Mute <span class="username u-dir u-textTruncate" dir="ltr">@<b>PedroAu80653666</b></span></button></li> 
+              <li class="unmute-user-item"><button type="button" class="dropdown-link">Unmute <span class="username u-dir u-textTruncate" dir="ltr">@<b>PedroAu80653666</b></span></button></li> 
+              <li class="block-text not-blocked"><button type="button" class="dropdown-link">Block <span class="username u-dir u-textTruncate" dir="ltr">@<b>PedroAu80653666</b></span></button></li> 
+              <li class="unblock-text"><button type="button" class="dropdown-link">Unblock <span class="username u-dir u-textTruncate" dir="ltr">@<b>PedroAu80653666</b></span></button></li> 
+              <li class="report-text"><button type="button" class="dropdown-link">Report <span class="username u-dir u-textTruncate" dir="ltr">@<b>PedroAu80653666</b></span></button></li> 
+              <li class="hide-suggestion-text"><button type="button" class="dropdown-link">Hide this suggestion</button></li> 
+              <li class="dropdown-divider is-following"></li> 
+              <li class="retweet-on-text"><button type="button" class="dropdown-link">Turn on Retweets</button></li> 
+              <li class="retweet-off-text"><button type="button" class="dropdown-link">Turn off Retweets</button></li> 
+              <li class="device-notifications-on-text"><button type="button" class="dropdown-link">Turn on mobile notifications</button></li> 
+              <li class="device-notifications-off-text"><button type="button" class="dropdown-link">Turn off mobile notifications</button></li> 
+              <li class="dropdown-divider is-embeddable"></li> 
+              <li class="embed-profile"><button type="button" class="dropdown-link">Embed this Profile</button></li> 
+             </ul> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="ProfileCard-userFields"> 
+        <div class="ProfileNameTruncated account-group"> 
+         <div class="u-textTruncate u-inlineBlock"> 
+          <a class="fullname ProfileNameTruncated-link u-textInheritColor js-nav" href="/PedroAu80653666" data-aria-label-part> Pedro Augusto</a>
+         </div>
+         <span class="UserBadges"></span> 
+        </div> 
+        <span class="ProfileCard-screenname"> <a href="/PedroAu80653666" class="ProfileCard-screennameLink u-linkComplex js-nav" data-aria-label-part> <span class="username u-dir" dir="ltr">@<b class="u-linkComplex-target">PedroAu80653666</b></span> </a><span>‏</span> </span> 
+        <p class="ProfileCard-bio u-dir js-ellipsis" dir="ltr" data-aria-label-part><a href="https://t.co/mtLg1tuphW" rel="nofollow noopener" dir="ltr" data-expanded-url="http://minebr.com/promocao?ref=P" class="twitter-timeline-link" target="_blank" title="http://minebr.com/promocao?ref=P"><span class="invisible">http://</span><span class="js-display-url">minebr.com/promocao?ref=P</span><span class="tco-ellipsis"><span class="invisible">&nbsp;</span></span></a>… por favor me ajudem a ter minecraft original OBG <img class="Emoji Emoji--forText" src="https://abs.twimg.com/emoji/v2/72x72/1f626.png" draggable="false" alt="😦" title="Frowning face with open mouth" aria-label="Emoji: Frowning face with open mouth"><img class="Emoji Emoji--forText" src="https://abs.twimg.com/emoji/v2/72x72/1f61b.png" draggable="false" alt="😛" title="Face with stuck-out tongue" aria-label="Emoji: Face with stuck-out tongue"></p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="Grid Grid--withGutter" data-component-context="user" role="presentation"> 
+   <div class="Grid-cell u-size1of2 u-lg-size1of3 u-mb10" data-test-selector="ProfileTimelineUser" role="presentation"> 
+    <div class="js-stream-item" role="listitem" data-item-id="1013959129839341569" id="stream-item-user-1013959129839341569" data-item-type="user"> 
+     <div class="ProfileCard js-actionable-user
+    
+    
+    
+    
+    " data-screen-name="nil_lukas" data-user-id="1013959129839341569" data-feedback-token="" data-impression-id=""> 
+      <a class="ProfileCard-bg js-nav" href="/nil_lukas" tabindex="-1" aria-hidden="true" style="
+    background-color: #1DA1F2;
+    background-image: url(https://pbs.twimg.com/profile_banners/1013959129839341569/1530582289/600x200);"> </a> 
+      <div class="ProfileCard-content"> 
+       <a class="ProfileCard-avatarLink js-nav js-tooltip" href="/nil_lukas" title="LukasNil" tabindex="-1" aria-hidden="true"> <img class="ProfileCard-avatarImage js-action-profile-avatar" src="https://pbs.twimg.com/profile_images/1013961733705228288/-7XfsEVL_bigger.jpg" alt=""> </a> 
+       <div class="ProfileCard-actions"> 
+        <div class="ProfileCard-userActions with-rightCaret js-userActions"> 
+         <div class="UserActions   UserActions--small u-textLeft"> 
+          <div class="user-actions btn-group not-following not-muting " data-user-id="1013959129839341569" data-screen-name="nil_lukas" data-name="LukasNil" data-protected="false"> 
+           <span class="UserActions-moreActions u-inlineBlock"> <button type="button" class="js-tooltip unmute-button btn small plain-btn" title="Unmute @nil_lukas" data-placement="top"> <span class="Icon Icon--muted Icon--medium"><span class="visuallyhidden">Unmute <span class="username u-dir u-textTruncate" dir="ltr">@<b>nil_lukas</b></span></span></span> </button><button type="button" class="first-load js-tooltip mute-button btn small plain-btn" title="Mute @nil_lukas" data-placement="top"> <span class="Icon Icon--unmuted Icon--medium"><span class="visuallyhidden">Mute <span class="username u-dir u-textTruncate" dir="ltr">@<b>nil_lukas</b></span></span></span> </button></span>
+           <span class="user-actions-follow-button js-follow-btn follow-button"> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    follow-text"> <span aria-hidden="true">Follow</span> <span class="u-hiddenVisually">Follow <span class="username u-dir u-textTruncate" dir="ltr">@<b>nil_lukas</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--primary
+    EdgeButton--small 
+    
+    button-text
+    following-text"> <span aria-hidden="true">Following</span> <span class="u-hiddenVisually">Following <span class="username u-dir u-textTruncate" dir="ltr">@<b>nil_lukas</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--danger
+    EdgeButton--small 
+    
+    button-text
+    unfollow-text"> <span aria-hidden="true">Unfollow</span> <span class="u-hiddenVisually">Unfollow <span class="username u-dir u-textTruncate" dir="ltr">@<b>nil_lukas</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--invertedDanger
+    EdgeButton--small 
+    
+    button-text
+    blocked-text"> <span aria-hidden="true">Blocked</span> <span class="u-hiddenVisually">Blocked <span class="username u-dir u-textTruncate" dir="ltr">@<b>nil_lukas</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--danger
+    EdgeButton--small 
+    
+    button-text
+    unblock-text"> <span aria-hidden="true">Unblock</span> <span class="u-hiddenVisually">Unblock <span class="username u-dir u-textTruncate" dir="ltr">@<b>nil_lukas</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    pending-text"> <span aria-hidden="true">Pending</span> <span class="u-hiddenVisually">Pending follow request from <span class="username u-dir u-textTruncate" dir="ltr">@<b>nil_lukas</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    cancel-text"> <span aria-hidden="true">Cancel</span> <span class="u-hiddenVisually">Cancel your follow request to <span class="username u-dir u-textTruncate" dir="ltr">@<b>nil_lukas</b></span></span> </button> </span> 
+           <div class="dropdown "> 
+            <button type="button" class="user-dropdown dropdown-toggle js-dropdown-toggle js-link js-tooltip btn plain-btn small-user-dropdown" title="More user actions"> <span class="user-dropdown-icon Icon Icon--dotsVertical Icon--small"><span class="visuallyhidden">User actions</span></span> </button> 
+            <div class="dropdown-menu dropdown-menu--rightAlign is-autoCentered is-forceRight"> 
+             <div class="dropdown-caret"> 
+              <span class="caret-outer"></span> 
+              <span class="caret-inner"></span> 
+             </div> 
+             <ul> 
+              <li class="mention-text not-blocked"><button type="button" class="dropdown-link">Tweet to <span class="username u-dir u-textTruncate" dir="ltr">@<b>nil_lukas</b></span></button></li> 
+              <li class="dm-text"><button type="button" class="dropdown-link">Send a Direct Message</button></li> 
+              <li class="list-text not-blocked"><button type="button" class="dropdown-link">Add or remove from lists…</button></li> 
+              <li class="dropdown-divider not-blocked"></li> 
+              <li class="mute-user-item"><button type="button" class="dropdown-link">Mute <span class="username u-dir u-textTruncate" dir="ltr">@<b>nil_lukas</b></span></button></li> 
+              <li class="unmute-user-item"><button type="button" class="dropdown-link">Unmute <span class="username u-dir u-textTruncate" dir="ltr">@<b>nil_lukas</b></span></button></li> 
+              <li class="block-text not-blocked"><button type="button" class="dropdown-link">Block <span class="username u-dir u-textTruncate" dir="ltr">@<b>nil_lukas</b></span></button></li> 
+              <li class="unblock-text"><button type="button" class="dropdown-link">Unblock <span class="username u-dir u-textTruncate" dir="ltr">@<b>nil_lukas</b></span></button></li> 
+              <li class="report-text"><button type="button" class="dropdown-link">Report <span class="username u-dir u-textTruncate" dir="ltr">@<b>nil_lukas</b></span></button></li> 
+              <li class="hide-suggestion-text"><button type="button" class="dropdown-link">Hide this suggestion</button></li> 
+              <li class="dropdown-divider is-following"></li> 
+              <li class="retweet-on-text"><button type="button" class="dropdown-link">Turn on Retweets</button></li> 
+              <li class="retweet-off-text"><button type="button" class="dropdown-link">Turn off Retweets</button></li> 
+              <li class="device-notifications-on-text"><button type="button" class="dropdown-link">Turn on mobile notifications</button></li> 
+              <li class="device-notifications-off-text"><button type="button" class="dropdown-link">Turn off mobile notifications</button></li> 
+              <li class="dropdown-divider is-embeddable"></li> 
+              <li class="embed-profile"><button type="button" class="dropdown-link">Embed this Profile</button></li> 
+             </ul> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="ProfileCard-userFields"> 
+        <div class="ProfileNameTruncated account-group"> 
+         <div class="u-textTruncate u-inlineBlock"> 
+          <a class="fullname ProfileNameTruncated-link u-textInheritColor js-nav" href="/nil_lukas" data-aria-label-part> LukasNil</a>
+         </div>
+         <span class="UserBadges"></span> 
+        </div> 
+        <span class="ProfileCard-screenname"> <a href="/nil_lukas" class="ProfileCard-screennameLink u-linkComplex js-nav" data-aria-label-part> <span class="username u-dir" dir="ltr">@<b class="u-linkComplex-target">nil_lukas</b></span> </a><span>‏</span> </span> 
+        <p class="ProfileCard-bio u-dir js-ellipsis" dir="ltr" data-aria-label-part></p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="Grid-cell u-size1of2 u-lg-size1of3 u-mb10" data-test-selector="ProfileTimelineUser" role="presentation"> 
+    <div class="js-stream-item" role="listitem" data-item-id="704316051438309376" id="stream-item-user-704316051438309376" data-item-type="user"> 
+     <div class="ProfileCard js-actionable-user
+    
+    
+    
+    
+    " data-screen-name="ViniciusTTX" data-user-id="704316051438309376" data-feedback-token="" data-impression-id=""> 
+      <a class="ProfileCard-bg js-nav" href="/ViniciusTTX" tabindex="-1" aria-hidden="true" style="
+    background-color: #1DA1F2;
+    background-image: url(https://pbs.twimg.com/profile_banners/704316051438309376/1456783574/600x200);"> </a> 
+      <div class="ProfileCard-content"> 
+       <a class="ProfileCard-avatarLink js-nav js-tooltip" href="/ViniciusTTX" title="Vinicius Medeiros" tabindex="-1" aria-hidden="true"> <img class="ProfileCard-avatarImage js-action-profile-avatar" src="https://pbs.twimg.com/profile_images/704427490958245889/Ew26tmI6_bigger.jpg" alt=""> </a> 
+       <div class="ProfileCard-actions"> 
+        <div class="ProfileCard-userActions with-rightCaret js-userActions"> 
+         <div class="UserActions   UserActions--small u-textLeft"> 
+          <div class="user-actions btn-group not-following not-muting " data-user-id="704316051438309376" data-screen-name="ViniciusTTX" data-name="Vinicius Medeiros" data-protected="false"> 
+           <span class="UserActions-moreActions u-inlineBlock"> <button type="button" class="js-tooltip unmute-button btn small plain-btn" title="Unmute @ViniciusTTX" data-placement="top"> <span class="Icon Icon--muted Icon--medium"><span class="visuallyhidden">Unmute <span class="username u-dir u-textTruncate" dir="ltr">@<b>ViniciusTTX</b></span></span></span> </button><button type="button" class="first-load js-tooltip mute-button btn small plain-btn" title="Mute @ViniciusTTX" data-placement="top"> <span class="Icon Icon--unmuted Icon--medium"><span class="visuallyhidden">Mute <span class="username u-dir u-textTruncate" dir="ltr">@<b>ViniciusTTX</b></span></span></span> </button></span>
+           <span class="user-actions-follow-button js-follow-btn follow-button"> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    follow-text"> <span aria-hidden="true">Follow</span> <span class="u-hiddenVisually">Follow <span class="username u-dir u-textTruncate" dir="ltr">@<b>ViniciusTTX</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--primary
+    EdgeButton--small 
+    
+    button-text
+    following-text"> <span aria-hidden="true">Following</span> <span class="u-hiddenVisually">Following <span class="username u-dir u-textTruncate" dir="ltr">@<b>ViniciusTTX</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--danger
+    EdgeButton--small 
+    
+    button-text
+    unfollow-text"> <span aria-hidden="true">Unfollow</span> <span class="u-hiddenVisually">Unfollow <span class="username u-dir u-textTruncate" dir="ltr">@<b>ViniciusTTX</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--invertedDanger
+    EdgeButton--small 
+    
+    button-text
+    blocked-text"> <span aria-hidden="true">Blocked</span> <span class="u-hiddenVisually">Blocked <span class="username u-dir u-textTruncate" dir="ltr">@<b>ViniciusTTX</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--danger
+    EdgeButton--small 
+    
+    button-text
+    unblock-text"> <span aria-hidden="true">Unblock</span> <span class="u-hiddenVisually">Unblock <span class="username u-dir u-textTruncate" dir="ltr">@<b>ViniciusTTX</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    pending-text"> <span aria-hidden="true">Pending</span> <span class="u-hiddenVisually">Pending follow request from <span class="username u-dir u-textTruncate" dir="ltr">@<b>ViniciusTTX</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    cancel-text"> <span aria-hidden="true">Cancel</span> <span class="u-hiddenVisually">Cancel your follow request to <span class="username u-dir u-textTruncate" dir="ltr">@<b>ViniciusTTX</b></span></span> </button> </span> 
+           <div class="dropdown "> 
+            <button type="button" class="user-dropdown dropdown-toggle js-dropdown-toggle js-link js-tooltip btn plain-btn small-user-dropdown" title="More user actions"> <span class="user-dropdown-icon Icon Icon--dotsVertical Icon--small"><span class="visuallyhidden">User actions</span></span> </button> 
+            <div class="dropdown-menu dropdown-menu--rightAlign is-autoCentered is-forceRight"> 
+             <div class="dropdown-caret"> 
+              <span class="caret-outer"></span> 
+              <span class="caret-inner"></span> 
+             </div> 
+             <ul> 
+              <li class="mention-text not-blocked"><button type="button" class="dropdown-link">Tweet to <span class="username u-dir u-textTruncate" dir="ltr">@<b>ViniciusTTX</b></span></button></li> 
+              <li class="dm-text"><button type="button" class="dropdown-link">Send a Direct Message</button></li> 
+              <li class="list-text not-blocked"><button type="button" class="dropdown-link">Add or remove from lists…</button></li> 
+              <li class="dropdown-divider not-blocked"></li> 
+              <li class="mute-user-item"><button type="button" class="dropdown-link">Mute <span class="username u-dir u-textTruncate" dir="ltr">@<b>ViniciusTTX</b></span></button></li> 
+              <li class="unmute-user-item"><button type="button" class="dropdown-link">Unmute <span class="username u-dir u-textTruncate" dir="ltr">@<b>ViniciusTTX</b></span></button></li> 
+              <li class="block-text not-blocked"><button type="button" class="dropdown-link">Block <span class="username u-dir u-textTruncate" dir="ltr">@<b>ViniciusTTX</b></span></button></li> 
+              <li class="unblock-text"><button type="button" class="dropdown-link">Unblock <span class="username u-dir u-textTruncate" dir="ltr">@<b>ViniciusTTX</b></span></button></li> 
+              <li class="report-text"><button type="button" class="dropdown-link">Report <span class="username u-dir u-textTruncate" dir="ltr">@<b>ViniciusTTX</b></span></button></li> 
+              <li class="hide-suggestion-text"><button type="button" class="dropdown-link">Hide this suggestion</button></li> 
+              <li class="dropdown-divider is-following"></li> 
+              <li class="retweet-on-text"><button type="button" class="dropdown-link">Turn on Retweets</button></li> 
+              <li class="retweet-off-text"><button type="button" class="dropdown-link">Turn off Retweets</button></li> 
+              <li class="device-notifications-on-text"><button type="button" class="dropdown-link">Turn on mobile notifications</button></li> 
+              <li class="device-notifications-off-text"><button type="button" class="dropdown-link">Turn off mobile notifications</button></li> 
+              <li class="dropdown-divider is-embeddable"></li> 
+              <li class="embed-profile"><button type="button" class="dropdown-link">Embed this Profile</button></li> 
+             </ul> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="ProfileCard-userFields"> 
+        <div class="ProfileNameTruncated account-group"> 
+         <div class="u-textTruncate u-inlineBlock"> 
+          <a class="fullname ProfileNameTruncated-link u-textInheritColor js-nav" href="/ViniciusTTX" data-aria-label-part> Vinicius Medeiros</a>
+         </div>
+         <span class="UserBadges"></span> 
+        </div> 
+        <span class="ProfileCard-screenname"> <a href="/ViniciusTTX" class="ProfileCard-screennameLink u-linkComplex js-nav" data-aria-label-part> <span class="username u-dir" dir="ltr">@<b class="u-linkComplex-target">ViniciusTTX</b></span> </a><span>‏</span> </span> 
+        <p class="ProfileCard-bio u-dir js-ellipsis" dir="ltr" data-aria-label-part></p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="Grid-cell u-size1of2 u-lg-size1of3 u-mb10" data-test-selector="ProfileTimelineUser" role="presentation"> 
+    <div class="js-stream-item" role="listitem" data-item-id="1010258628333457408" id="stream-item-user-1010258628333457408" data-item-type="user"> 
+     <div class="ProfileCard js-actionable-user
+    
+    
+    
+    
+    " data-screen-name="LaWhats" data-user-id="1010258628333457408" data-feedback-token="" data-impression-id=""> 
+      <a class="ProfileCard-bg js-nav" href="/LaWhats" tabindex="-1" aria-hidden="true" style="
+    background-color: #1DA1F2;
+    background-image: url(https://pbs.twimg.com/profile_banners/1010258628333457408/1529930349/600x200);"> </a> 
+      <div class="ProfileCard-content"> 
+       <a class="ProfileCard-avatarLink js-nav js-tooltip" href="/LaWhats" title="Anttedagimon" tabindex="-1" aria-hidden="true"> <img class="ProfileCard-avatarImage js-action-profile-avatar" src="https://pbs.twimg.com/profile_images/1010265441032384512/gWgzPhKN_bigger.jpg" alt=""> </a> 
+       <div class="ProfileCard-actions"> 
+        <div class="ProfileCard-userActions with-rightCaret js-userActions"> 
+         <div class="UserActions   UserActions--small u-textLeft"> 
+          <div class="user-actions btn-group not-following not-muting " data-user-id="1010258628333457408" data-screen-name="LaWhats" data-name="Anttedagimon" data-protected="false"> 
+           <span class="UserActions-moreActions u-inlineBlock"> <button type="button" class="js-tooltip unmute-button btn small plain-btn" title="Unmute @LaWhats" data-placement="top"> <span class="Icon Icon--muted Icon--medium"><span class="visuallyhidden">Unmute <span class="username u-dir u-textTruncate" dir="ltr">@<b>LaWhats</b></span></span></span> </button><button type="button" class="first-load js-tooltip mute-button btn small plain-btn" title="Mute @LaWhats" data-placement="top"> <span class="Icon Icon--unmuted Icon--medium"><span class="visuallyhidden">Mute <span class="username u-dir u-textTruncate" dir="ltr">@<b>LaWhats</b></span></span></span> </button></span>
+           <span class="user-actions-follow-button js-follow-btn follow-button"> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    follow-text"> <span aria-hidden="true">Follow</span> <span class="u-hiddenVisually">Follow <span class="username u-dir u-textTruncate" dir="ltr">@<b>LaWhats</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--primary
+    EdgeButton--small 
+    
+    button-text
+    following-text"> <span aria-hidden="true">Following</span> <span class="u-hiddenVisually">Following <span class="username u-dir u-textTruncate" dir="ltr">@<b>LaWhats</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--danger
+    EdgeButton--small 
+    
+    button-text
+    unfollow-text"> <span aria-hidden="true">Unfollow</span> <span class="u-hiddenVisually">Unfollow <span class="username u-dir u-textTruncate" dir="ltr">@<b>LaWhats</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--invertedDanger
+    EdgeButton--small 
+    
+    button-text
+    blocked-text"> <span aria-hidden="true">Blocked</span> <span class="u-hiddenVisually">Blocked <span class="username u-dir u-textTruncate" dir="ltr">@<b>LaWhats</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--danger
+    EdgeButton--small 
+    
+    button-text
+    unblock-text"> <span aria-hidden="true">Unblock</span> <span class="u-hiddenVisually">Unblock <span class="username u-dir u-textTruncate" dir="ltr">@<b>LaWhats</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    pending-text"> <span aria-hidden="true">Pending</span> <span class="u-hiddenVisually">Pending follow request from <span class="username u-dir u-textTruncate" dir="ltr">@<b>LaWhats</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    cancel-text"> <span aria-hidden="true">Cancel</span> <span class="u-hiddenVisually">Cancel your follow request to <span class="username u-dir u-textTruncate" dir="ltr">@<b>LaWhats</b></span></span> </button> </span> 
+           <div class="dropdown "> 
+            <button type="button" class="user-dropdown dropdown-toggle js-dropdown-toggle js-link js-tooltip btn plain-btn small-user-dropdown" title="More user actions"> <span class="user-dropdown-icon Icon Icon--dotsVertical Icon--small"><span class="visuallyhidden">User actions</span></span> </button> 
+            <div class="dropdown-menu dropdown-menu--rightAlign is-autoCentered is-forceRight"> 
+             <div class="dropdown-caret"> 
+              <span class="caret-outer"></span> 
+              <span class="caret-inner"></span> 
+             </div> 
+             <ul> 
+              <li class="mention-text not-blocked"><button type="button" class="dropdown-link">Tweet to <span class="username u-dir u-textTruncate" dir="ltr">@<b>LaWhats</b></span></button></li> 
+              <li class="dm-text"><button type="button" class="dropdown-link">Send a Direct Message</button></li> 
+              <li class="list-text not-blocked"><button type="button" class="dropdown-link">Add or remove from lists…</button></li> 
+              <li class="dropdown-divider not-blocked"></li> 
+              <li class="mute-user-item"><button type="button" class="dropdown-link">Mute <span class="username u-dir u-textTruncate" dir="ltr">@<b>LaWhats</b></span></button></li> 
+              <li class="unmute-user-item"><button type="button" class="dropdown-link">Unmute <span class="username u-dir u-textTruncate" dir="ltr">@<b>LaWhats</b></span></button></li> 
+              <li class="block-text not-blocked"><button type="button" class="dropdown-link">Block <span class="username u-dir u-textTruncate" dir="ltr">@<b>LaWhats</b></span></button></li> 
+              <li class="unblock-text"><button type="button" class="dropdown-link">Unblock <span class="username u-dir u-textTruncate" dir="ltr">@<b>LaWhats</b></span></button></li> 
+              <li class="report-text"><button type="button" class="dropdown-link">Report <span class="username u-dir u-textTruncate" dir="ltr">@<b>LaWhats</b></span></button></li> 
+              <li class="hide-suggestion-text"><button type="button" class="dropdown-link">Hide this suggestion</button></li> 
+              <li class="dropdown-divider is-following"></li> 
+              <li class="retweet-on-text"><button type="button" class="dropdown-link">Turn on Retweets</button></li> 
+              <li class="retweet-off-text"><button type="button" class="dropdown-link">Turn off Retweets</button></li> 
+              <li class="device-notifications-on-text"><button type="button" class="dropdown-link">Turn on mobile notifications</button></li> 
+              <li class="device-notifications-off-text"><button type="button" class="dropdown-link">Turn off mobile notifications</button></li> 
+              <li class="dropdown-divider is-embeddable"></li> 
+              <li class="embed-profile"><button type="button" class="dropdown-link">Embed this Profile</button></li> 
+             </ul> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="ProfileCard-userFields"> 
+        <div class="ProfileNameTruncated account-group"> 
+         <div class="u-textTruncate u-inlineBlock"> 
+          <a class="fullname ProfileNameTruncated-link u-textInheritColor js-nav" href="/LaWhats" data-aria-label-part> Anttedagimon</a>
+         </div>
+         <span class="UserBadges"></span> 
+        </div> 
+        <span class="ProfileCard-screenname"> <a href="/LaWhats" class="ProfileCard-screennameLink u-linkComplex js-nav" data-aria-label-part> <span class="username u-dir" dir="ltr">@<b class="u-linkComplex-target">LaWhats</b></span> </a><span>‏</span> </span> 
+        <p class="ProfileCard-bio u-dir js-ellipsis" dir="ltr" data-aria-label-part></p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="Grid-cell u-size1of2 u-lg-size1of3 u-mb10" data-test-selector="ProfileTimelineUser" role="presentation"> 
+    <div class="js-stream-item" role="listitem" data-item-id="1013920634043355137" id="stream-item-user-1013920634043355137" data-item-type="user"> 
+     <div class="ProfileCard js-actionable-user
+    
+    
+    
+    
+    " data-screen-name="Fneto81132559" data-user-id="1013920634043355137" data-feedback-token="" data-impression-id=""> 
+      <a class="ProfileCard-bg js-nav" href="/Fneto81132559" tabindex="-1" aria-hidden="true" style="
+    background-color: #1DA1F2;
+    background-image: url(https://pbs.twimg.com/profile_banners/1013920634043355137/1530573175/600x200);"> </a> 
+      <div class="ProfileCard-content"> 
+       <a class="ProfileCard-avatarLink js-nav js-tooltip" href="/Fneto81132559" title="Fneto" tabindex="-1" aria-hidden="true"> <img class="ProfileCard-avatarImage js-action-profile-avatar" src="https://pbs.twimg.com/profile_images/1013923502028713990/n7MfeOaI_bigger.jpg" alt=""> </a> 
+       <div class="ProfileCard-actions"> 
+        <div class="ProfileCard-userActions with-rightCaret js-userActions"> 
+         <div class="UserActions   UserActions--small u-textLeft"> 
+          <div class="user-actions btn-group not-following not-muting " data-user-id="1013920634043355137" data-screen-name="Fneto81132559" data-name="Fneto" data-protected="false"> 
+           <span class="UserActions-moreActions u-inlineBlock"> <button type="button" class="js-tooltip unmute-button btn small plain-btn" title="Unmute @Fneto81132559" data-placement="top"> <span class="Icon Icon--muted Icon--medium"><span class="visuallyhidden">Unmute <span class="username u-dir u-textTruncate" dir="ltr">@<b>Fneto81132559</b></span></span></span> </button><button type="button" class="first-load js-tooltip mute-button btn small plain-btn" title="Mute @Fneto81132559" data-placement="top"> <span class="Icon Icon--unmuted Icon--medium"><span class="visuallyhidden">Mute <span class="username u-dir u-textTruncate" dir="ltr">@<b>Fneto81132559</b></span></span></span> </button></span>
+           <span class="user-actions-follow-button js-follow-btn follow-button"> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    follow-text"> <span aria-hidden="true">Follow</span> <span class="u-hiddenVisually">Follow <span class="username u-dir u-textTruncate" dir="ltr">@<b>Fneto81132559</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--primary
+    EdgeButton--small 
+    
+    button-text
+    following-text"> <span aria-hidden="true">Following</span> <span class="u-hiddenVisually">Following <span class="username u-dir u-textTruncate" dir="ltr">@<b>Fneto81132559</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--danger
+    EdgeButton--small 
+    
+    button-text
+    unfollow-text"> <span aria-hidden="true">Unfollow</span> <span class="u-hiddenVisually">Unfollow <span class="username u-dir u-textTruncate" dir="ltr">@<b>Fneto81132559</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--invertedDanger
+    EdgeButton--small 
+    
+    button-text
+    blocked-text"> <span aria-hidden="true">Blocked</span> <span class="u-hiddenVisually">Blocked <span class="username u-dir u-textTruncate" dir="ltr">@<b>Fneto81132559</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--danger
+    EdgeButton--small 
+    
+    button-text
+    unblock-text"> <span aria-hidden="true">Unblock</span> <span class="u-hiddenVisually">Unblock <span class="username u-dir u-textTruncate" dir="ltr">@<b>Fneto81132559</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    pending-text"> <span aria-hidden="true">Pending</span> <span class="u-hiddenVisually">Pending follow request from <span class="username u-dir u-textTruncate" dir="ltr">@<b>Fneto81132559</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    cancel-text"> <span aria-hidden="true">Cancel</span> <span class="u-hiddenVisually">Cancel your follow request to <span class="username u-dir u-textTruncate" dir="ltr">@<b>Fneto81132559</b></span></span> </button> </span> 
+           <div class="dropdown "> 
+            <button type="button" class="user-dropdown dropdown-toggle js-dropdown-toggle js-link js-tooltip btn plain-btn small-user-dropdown" title="More user actions"> <span class="user-dropdown-icon Icon Icon--dotsVertical Icon--small"><span class="visuallyhidden">User actions</span></span> </button> 
+            <div class="dropdown-menu dropdown-menu--rightAlign is-autoCentered is-forceRight"> 
+             <div class="dropdown-caret"> 
+              <span class="caret-outer"></span> 
+              <span class="caret-inner"></span> 
+             </div> 
+             <ul> 
+              <li class="mention-text not-blocked"><button type="button" class="dropdown-link">Tweet to <span class="username u-dir u-textTruncate" dir="ltr">@<b>Fneto81132559</b></span></button></li> 
+              <li class="dm-text"><button type="button" class="dropdown-link">Send a Direct Message</button></li> 
+              <li class="list-text not-blocked"><button type="button" class="dropdown-link">Add or remove from lists…</button></li> 
+              <li class="dropdown-divider not-blocked"></li> 
+              <li class="mute-user-item"><button type="button" class="dropdown-link">Mute <span class="username u-dir u-textTruncate" dir="ltr">@<b>Fneto81132559</b></span></button></li> 
+              <li class="unmute-user-item"><button type="button" class="dropdown-link">Unmute <span class="username u-dir u-textTruncate" dir="ltr">@<b>Fneto81132559</b></span></button></li> 
+              <li class="block-text not-blocked"><button type="button" class="dropdown-link">Block <span class="username u-dir u-textTruncate" dir="ltr">@<b>Fneto81132559</b></span></button></li> 
+              <li class="unblock-text"><button type="button" class="dropdown-link">Unblock <span class="username u-dir u-textTruncate" dir="ltr">@<b>Fneto81132559</b></span></button></li> 
+              <li class="report-text"><button type="button" class="dropdown-link">Report <span class="username u-dir u-textTruncate" dir="ltr">@<b>Fneto81132559</b></span></button></li> 
+              <li class="hide-suggestion-text"><button type="button" class="dropdown-link">Hide this suggestion</button></li> 
+              <li class="dropdown-divider is-following"></li> 
+              <li class="retweet-on-text"><button type="button" class="dropdown-link">Turn on Retweets</button></li> 
+              <li class="retweet-off-text"><button type="button" class="dropdown-link">Turn off Retweets</button></li> 
+              <li class="device-notifications-on-text"><button type="button" class="dropdown-link">Turn on mobile notifications</button></li> 
+              <li class="device-notifications-off-text"><button type="button" class="dropdown-link">Turn off mobile notifications</button></li> 
+              <li class="dropdown-divider is-embeddable"></li> 
+              <li class="embed-profile"><button type="button" class="dropdown-link">Embed this Profile</button></li> 
+             </ul> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="ProfileCard-userFields"> 
+        <div class="ProfileNameTruncated account-group"> 
+         <div class="u-textTruncate u-inlineBlock"> 
+          <a class="fullname ProfileNameTruncated-link u-textInheritColor js-nav" href="/Fneto81132559" data-aria-label-part> Fneto</a>
+         </div>
+         <span class="UserBadges"></span> 
+        </div> 
+        <span class="ProfileCard-screenname"> <a href="/Fneto81132559" class="ProfileCard-screennameLink u-linkComplex js-nav" data-aria-label-part> <span class="username u-dir" dir="ltr">@<b class="u-linkComplex-target">Fneto81132559</b></span> </a><span>‏</span> </span> 
+        <p class="ProfileCard-bio u-dir js-ellipsis" dir="ltr" data-aria-label-part></p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="Grid-cell u-size1of2 u-lg-size1of3 u-mb10" data-test-selector="ProfileTimelineUser" role="presentation"> 
+    <div class="js-stream-item" role="listitem" data-item-id="955515669713387525" id="stream-item-user-955515669713387525" data-item-type="user"> 
+     <div class="ProfileCard js-actionable-user
+    
+    
+    
+    
+    " data-screen-name="FilipeS97654672" data-user-id="955515669713387525" data-feedback-token="" data-impression-id=""> 
+      <a class="ProfileCard-bg js-nav" href="/FilipeS97654672" tabindex="-1" aria-hidden="true" style="
+    background-color: #1DA1F2;
+    "> </a> 
+      <div class="ProfileCard-content"> 
+       <a class="ProfileCard-avatarLink js-nav js-tooltip" href="/FilipeS97654672" title="Filipe Souza" tabindex="-1" aria-hidden="true"> <img class="ProfileCard-avatarImage js-action-profile-avatar" src="https://pbs.twimg.com/profile_images/998869141174943744/OJ-x1Hxn_bigger.jpg" alt=""> </a> 
+       <div class="ProfileCard-actions"> 
+        <div class="ProfileCard-userActions with-rightCaret js-userActions"> 
+         <div class="UserActions   UserActions--small u-textLeft"> 
+          <div class="user-actions btn-group not-following not-muting " data-user-id="955515669713387525" data-screen-name="FilipeS97654672" data-name="Filipe Souza" data-protected="false"> 
+           <span class="UserActions-moreActions u-inlineBlock"> <button type="button" class="js-tooltip unmute-button btn small plain-btn" title="Unmute @FilipeS97654672" data-placement="top"> <span class="Icon Icon--muted Icon--medium"><span class="visuallyhidden">Unmute <span class="username u-dir u-textTruncate" dir="ltr">@<b>FilipeS97654672</b></span></span></span> </button><button type="button" class="first-load js-tooltip mute-button btn small plain-btn" title="Mute @FilipeS97654672" data-placement="top"> <span class="Icon Icon--unmuted Icon--medium"><span class="visuallyhidden">Mute <span class="username u-dir u-textTruncate" dir="ltr">@<b>FilipeS97654672</b></span></span></span> </button></span>
+           <span class="user-actions-follow-button js-follow-btn follow-button"> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    follow-text"> <span aria-hidden="true">Follow</span> <span class="u-hiddenVisually">Follow <span class="username u-dir u-textTruncate" dir="ltr">@<b>FilipeS97654672</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--primary
+    EdgeButton--small 
+    
+    button-text
+    following-text"> <span aria-hidden="true">Following</span> <span class="u-hiddenVisually">Following <span class="username u-dir u-textTruncate" dir="ltr">@<b>FilipeS97654672</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--danger
+    EdgeButton--small 
+    
+    button-text
+    unfollow-text"> <span aria-hidden="true">Unfollow</span> <span class="u-hiddenVisually">Unfollow <span class="username u-dir u-textTruncate" dir="ltr">@<b>FilipeS97654672</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--invertedDanger
+    EdgeButton--small 
+    
+    button-text
+    blocked-text"> <span aria-hidden="true">Blocked</span> <span class="u-hiddenVisually">Blocked <span class="username u-dir u-textTruncate" dir="ltr">@<b>FilipeS97654672</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--danger
+    EdgeButton--small 
+    
+    button-text
+    unblock-text"> <span aria-hidden="true">Unblock</span> <span class="u-hiddenVisually">Unblock <span class="username u-dir u-textTruncate" dir="ltr">@<b>FilipeS97654672</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    pending-text"> <span aria-hidden="true">Pending</span> <span class="u-hiddenVisually">Pending follow request from <span class="username u-dir u-textTruncate" dir="ltr">@<b>FilipeS97654672</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    cancel-text"> <span aria-hidden="true">Cancel</span> <span class="u-hiddenVisually">Cancel your follow request to <span class="username u-dir u-textTruncate" dir="ltr">@<b>FilipeS97654672</b></span></span> </button> </span> 
+           <div class="dropdown "> 
+            <button type="button" class="user-dropdown dropdown-toggle js-dropdown-toggle js-link js-tooltip btn plain-btn small-user-dropdown" title="More user actions"> <span class="user-dropdown-icon Icon Icon--dotsVertical Icon--small"><span class="visuallyhidden">User actions</span></span> </button> 
+            <div class="dropdown-menu dropdown-menu--rightAlign is-autoCentered is-forceRight"> 
+             <div class="dropdown-caret"> 
+              <span class="caret-outer"></span> 
+              <span class="caret-inner"></span> 
+             </div> 
+             <ul> 
+              <li class="mention-text not-blocked"><button type="button" class="dropdown-link">Tweet to <span class="username u-dir u-textTruncate" dir="ltr">@<b>FilipeS97654672</b></span></button></li> 
+              <li class="dm-text"><button type="button" class="dropdown-link">Send a Direct Message</button></li> 
+              <li class="list-text not-blocked"><button type="button" class="dropdown-link">Add or remove from lists…</button></li> 
+              <li class="dropdown-divider not-blocked"></li> 
+              <li class="mute-user-item"><button type="button" class="dropdown-link">Mute <span class="username u-dir u-textTruncate" dir="ltr">@<b>FilipeS97654672</b></span></button></li> 
+              <li class="unmute-user-item"><button type="button" class="dropdown-link">Unmute <span class="username u-dir u-textTruncate" dir="ltr">@<b>FilipeS97654672</b></span></button></li> 
+              <li class="block-text not-blocked"><button type="button" class="dropdown-link">Block <span class="username u-dir u-textTruncate" dir="ltr">@<b>FilipeS97654672</b></span></button></li> 
+              <li class="unblock-text"><button type="button" class="dropdown-link">Unblock <span class="username u-dir u-textTruncate" dir="ltr">@<b>FilipeS97654672</b></span></button></li> 
+              <li class="report-text"><button type="button" class="dropdown-link">Report <span class="username u-dir u-textTruncate" dir="ltr">@<b>FilipeS97654672</b></span></button></li> 
+              <li class="hide-suggestion-text"><button type="button" class="dropdown-link">Hide this suggestion</button></li> 
+              <li class="dropdown-divider is-following"></li> 
+              <li class="retweet-on-text"><button type="button" class="dropdown-link">Turn on Retweets</button></li> 
+              <li class="retweet-off-text"><button type="button" class="dropdown-link">Turn off Retweets</button></li> 
+              <li class="device-notifications-on-text"><button type="button" class="dropdown-link">Turn on mobile notifications</button></li> 
+              <li class="device-notifications-off-text"><button type="button" class="dropdown-link">Turn off mobile notifications</button></li> 
+              <li class="dropdown-divider is-embeddable"></li> 
+              <li class="embed-profile"><button type="button" class="dropdown-link">Embed this Profile</button></li> 
+             </ul> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="ProfileCard-userFields"> 
+        <div class="ProfileNameTruncated account-group"> 
+         <div class="u-textTruncate u-inlineBlock"> 
+          <a class="fullname ProfileNameTruncated-link u-textInheritColor js-nav" href="/FilipeS97654672" data-aria-label-part> Filipe Souza</a>
+         </div>
+         <span class="UserBadges"></span> 
+        </div> 
+        <span class="ProfileCard-screenname"> <a href="/FilipeS97654672" class="ProfileCard-screennameLink u-linkComplex js-nav" data-aria-label-part> <span class="username u-dir" dir="ltr">@<b class="u-linkComplex-target">FilipeS97654672</b></span> </a><span>‏</span> </span> 
+        <p class="ProfileCard-bio u-dir js-ellipsis" dir="ltr" data-aria-label-part></p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="Grid-cell u-size1of2 u-lg-size1of3 u-mb10" data-test-selector="ProfileTimelineUser" role="presentation"> 
+    <div class="js-stream-item" role="listitem" data-item-id="935683370046062592" id="stream-item-user-935683370046062592" data-item-type="user"> 
+     <div class="ProfileCard js-actionable-user
+    
+    
+    
+    
+    " data-screen-name="CarlosD72116951" data-user-id="935683370046062592" data-feedback-token="" data-impression-id=""> 
+      <a class="ProfileCard-bg js-nav" href="/CarlosD72116951" tabindex="-1" aria-hidden="true" style="
+    background-color: #1DA1F2;
+    "> </a> 
+      <div class="ProfileCard-content"> 
+       <a class="ProfileCard-avatarLink js-nav js-tooltip" href="/CarlosD72116951" title="Carlos Daniel" tabindex="-1" aria-hidden="true"> <img class="ProfileCard-avatarImage js-action-profile-avatar" src="https://abs.twimg.com/sticky/default_profile_images/default_profile_bigger.png" alt=""> </a> 
+       <div class="ProfileCard-actions"> 
+        <div class="ProfileCard-userActions with-rightCaret js-userActions"> 
+         <div class="UserActions   UserActions--small u-textLeft"> 
+          <div class="user-actions btn-group not-following not-muting " data-user-id="935683370046062592" data-screen-name="CarlosD72116951" data-name="Carlos Daniel" data-protected="false"> 
+           <span class="UserActions-moreActions u-inlineBlock"> <button type="button" class="js-tooltip unmute-button btn small plain-btn" title="Unmute @CarlosD72116951" data-placement="top"> <span class="Icon Icon--muted Icon--medium"><span class="visuallyhidden">Unmute <span class="username u-dir u-textTruncate" dir="ltr">@<b>CarlosD72116951</b></span></span></span> </button><button type="button" class="first-load js-tooltip mute-button btn small plain-btn" title="Mute @CarlosD72116951" data-placement="top"> <span class="Icon Icon--unmuted Icon--medium"><span class="visuallyhidden">Mute <span class="username u-dir u-textTruncate" dir="ltr">@<b>CarlosD72116951</b></span></span></span> </button></span>
+           <span class="user-actions-follow-button js-follow-btn follow-button"> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    follow-text"> <span aria-hidden="true">Follow</span> <span class="u-hiddenVisually">Follow <span class="username u-dir u-textTruncate" dir="ltr">@<b>CarlosD72116951</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--primary
+    EdgeButton--small 
+    
+    button-text
+    following-text"> <span aria-hidden="true">Following</span> <span class="u-hiddenVisually">Following <span class="username u-dir u-textTruncate" dir="ltr">@<b>CarlosD72116951</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--danger
+    EdgeButton--small 
+    
+    button-text
+    unfollow-text"> <span aria-hidden="true">Unfollow</span> <span class="u-hiddenVisually">Unfollow <span class="username u-dir u-textTruncate" dir="ltr">@<b>CarlosD72116951</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--invertedDanger
+    EdgeButton--small 
+    
+    button-text
+    blocked-text"> <span aria-hidden="true">Blocked</span> <span class="u-hiddenVisually">Blocked <span class="username u-dir u-textTruncate" dir="ltr">@<b>CarlosD72116951</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--danger
+    EdgeButton--small 
+    
+    button-text
+    unblock-text"> <span aria-hidden="true">Unblock</span> <span class="u-hiddenVisually">Unblock <span class="username u-dir u-textTruncate" dir="ltr">@<b>CarlosD72116951</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    pending-text"> <span aria-hidden="true">Pending</span> <span class="u-hiddenVisually">Pending follow request from <span class="username u-dir u-textTruncate" dir="ltr">@<b>CarlosD72116951</b></span></span> </button> <button type="button" class="
+    EdgeButton
+    EdgeButton--secondary
+    EdgeButton--small 
+    
+    button-text
+    cancel-text"> <span aria-hidden="true">Cancel</span> <span class="u-hiddenVisually">Cancel your follow request to <span class="username u-dir u-textTruncate" dir="ltr">@<b>CarlosD72116951</b></span></span> </button> </span> 
+           <div class="dropdown "> 
+            <button type="button" class="user-dropdown dropdown-toggle js-dropdown-toggle js-link js-tooltip btn plain-btn small-user-dropdown" title="More user actions"> <span class="user-dropdown-icon Icon Icon--dotsVertical Icon--small"><span class="visuallyhidden">User actions</span></span> </button> 
+            <div class="dropdown-menu dropdown-menu--rightAlign is-autoCentered is-forceRight"> 
+             <div class="dropdown-caret"> 
+              <span class="caret-outer"></span> 
+              <span class="caret-inner"></span> 
+             </div> 
+             <ul> 
+              <li class="mention-text not-blocked"><button type="button" class="dropdown-link">Tweet to <span class="username u-dir u-textTruncate" dir="ltr">@<b>CarlosD72116951</b></span></button></li> 
+              <li class="dm-text"><button type="button" class="dropdown-link">Send a Direct Message</button></li> 
+              <li class="list-text not-blocked"><button type="button" class="dropdown-link">Add or remove from lists…</button></li> 
+              <li class="dropdown-divider not-blocked"></li> 
+              <li class="mute-user-item"><button type="button" class="dropdown-link">Mute <span class="username u-dir u-textTruncate" dir="ltr">@<b>CarlosD72116951</b></span></button></li> 
+              <li class="unmute-user-item"><button type="button" class="dropdown-link">Unmute <span class="username u-dir u-textTruncate" dir="ltr">@<b>CarlosD72116951</b></span></button></li> 
+              <li class="block-text not-blocked"><button type="button" class="dropdown-link">Block <span class="username u-dir u-textTruncate" dir="ltr">@<b>CarlosD72116951</b></span></button></li> 
+              <li class="unblock-text"><button type="button" class="dropdown-link">Unblock <span class="username u-dir u-textTruncate" dir="ltr">@<b>CarlosD72116951</b></span></button></li> 
+              <li class="report-text"><button type="button" class="dropdown-link">Report <span class="username u-dir u-textTruncate" dir="ltr">@<b>CarlosD72116951</b></span></button></li> 
+              <li class="hide-suggestion-text"><button type="button" class="dropdown-link">Hide this suggestion</button></li> 
+              <li class="dropdown-divider is-following"></li> 
+              <li class="retweet-on-text"><button type="button" class="dropdown-link">Turn on Retweets</button></li> 
+              <li class="retweet-off-text"><button type="button" class="dropdown-link">Turn off Retweets</button></li> 
+              <li class="device-notifications-on-text"><button type="button" class="dropdown-link">Turn on mobile notifications</button></li> 
+              <li class="device-notifications-off-text"><button type="button" class="dropdown-link">Turn off mobile notifications</button></li> 
+              <li class="dropdown-divider is-embeddable"></li> 
+              <li class="embed-profile"><button type="button" class="dropdown-link">Embed this Profile</button></li> 
+             </ul> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="ProfileCard-userFields"> 
+        <div class="ProfileNameTruncated account-group"> 
+         <div class="u-textTruncate u-inlineBlock"> 
+          <a class="fullname ProfileNameTruncated-link u-textInheritColor js-nav" href="/CarlosD72116951" data-aria-label-part> Carlos Daniel</a>
+         </div>
+         <span class="UserBadges"></span> 
+        </div> 
+        <span class="ProfileCard-screenname"> <a href="/CarlosD72116951" class="ProfileCard-screennameLink u-linkComplex js-nav" data-aria-label-part> <span class="username u-dir" dir="ltr">@<b class="u-linkComplex-target">CarlosD72116951</b></span> </a><span>‏</span> </span> 
+        <p class="ProfileCard-bio u-dir js-ellipsis" dir="ltr" data-aria-label-part></p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+ </body>
+</html>

@@ -7,15 +7,14 @@ import com.harystolho.utils.TPMUtils;
  *
  */
 public class Main {
-	
+
 	private static TPMApplication application;
 
 	public static void main(String[] args) {
 
 		TPMUtils.start();
 
-		TPMApplication tpm = new TPMApplication();
-		tpm.init(args);
+		new TPMApplication().init(args);
 	}
 
 	public static TPMApplication getApplication() {

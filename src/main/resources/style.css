@@ -15,6 +15,15 @@
     -fx-fill: white;
 }
 
+.selectedLabel{
+    -fx-border-color: white;
+    -fx-border-width: 0 0 2px 0;
+}
+
+.menuLabel:hover .text{
+    -fx-fill: rgb(200, 200, 200);
+}
+
 .list-cell, .list-view{
     -fx-background-color: transparent;
 }
