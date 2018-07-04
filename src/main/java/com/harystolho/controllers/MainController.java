@@ -46,8 +46,6 @@ public class MainController {
 
 		Main.getApplication().setMainController(this);
 
-		loadUserProfilePane();
-
 		loadAccounts();
 
 		loadEventHandler();
@@ -69,7 +67,7 @@ public class MainController {
 		});
 
 		home.setOnMouseClicked((e) -> {
-			loadUserProfilePane();
+			rightPane.getChildren().clear();
 		});
 
 	}
@@ -124,7 +122,7 @@ public class MainController {
 			return;
 		}
 
-		loadUserProfilePane();
+		rightPane.getChildren().clear();
 
 	}
 

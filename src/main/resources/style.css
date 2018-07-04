@@ -43,3 +43,8 @@
 .menu{
     -fx-background-color: #100080;
 }
+
+.twitterAccount{
+    -fx-fill: #a8a8a8;
+    -fx-font-size: 15px;
+}
