@@ -1,10 +1,8 @@
 package com.harystolho.controllers;
 
 import java.io.IOException;
-import java.net.HttpCookie;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import org.jsoup.Connection.Method;
@@ -19,12 +17,12 @@ import com.harystolho.Main;
 import com.harystolho.twitter.TwitterAccount;
 
 import javafx.fxml.FXML;
-import javafx.geometry.Insets;
 import javafx.scene.Group;
 import javafx.scene.Node;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.ScrollPane;
+import javafx.scene.control.Tooltip;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.FlowPane;
@@ -41,10 +39,10 @@ public class ProfileController {
 	private Label followers;
 
 	@FXML
-	private Label settings;
+	private Label following;
 
 	@FXML
-	private Pane statsPane;
+	private Label settings;
 
 	@FXML
 	private Group paneGroup;
@@ -56,7 +54,7 @@ public class ProfileController {
 	private Label followersCount;
 
 	@FXML
-	private Label following;
+	private Label followingCount;
 
 	@FXML
 	private Label likes;
@@ -68,18 +66,33 @@ public class ProfileController {
 	private ImageView avatar;
 
 	@FXML
+	private Pane statsPane;
+
+	@FXML
 	private Pane followersPane;
 
 	@FXML
-	private ScrollPane scrollPane;
+	private Pane followingPane;
+
+	@FXML
+	private ScrollPane followerScrollPane;
+
+	@FXML
+	private ScrollPane followingScrollPane;
 
 	private List<Label> menuLabels;
 
+	private FlowPane flowPane;
+
 	private TwitterAccount currentAccount;
 
-	private String followersPosition;
+	private String followPosition;
 
 	private boolean requestSent = false;
+
+	private static enum follow {
+		follower, following
+	};
 
 	@FXML
 	void initialize() {
@@ -102,19 +115,47 @@ public class ProfileController {
 
 		followers.setOnMouseClicked((e) -> {
 			setMenuLabel(followers, followersPane);
-			getFollowersList();
+
+			flowPane = (FlowPane) followerScrollPane.getContent();
+
+			flowPane.getChildren().clear();
+
+			getFollowList(follow.follower);
+			getMoreFollow(follow.follower);
+		});
+
+		following.setOnMouseClicked((e) -> {
+			setMenuLabel(following, followingPane);
+
+			flowPane = (FlowPane) followingScrollPane.getContent();
+
+			flowPane.getChildren().clear();
+
+			getFollowList(follow.following);
+			getMoreFollow(follow.following);
+
 		});
 
 		settings.setOnMouseClicked((e) -> {
 			setMenuLabel(settings, null);
 		});
 
-		scrollPane.vvalueProperty().addListener((obv, oldValue, newValue) -> {
-
+		followerScrollPane.vvalueProperty().addListener((obv, oldValue, newValue) -> {
 			if (newValue.intValue() == 1) {
 				if (!requestSent) {
 					requestSent = true;
-					getMoreFollowers();
+
+					getMoreFollow(follow.follower);
+				}
+			}
+		});
+
+		followingScrollPane.vvalueProperty().addListener((obv, oldValue, newValue) -> {
+			if (newValue.intValue() == 1) {
+				if (!requestSent) {
+					requestSent = true;
+
+					getMoreFollow(follow.following);
 				}
 			}
 		});
@@ -126,6 +167,7 @@ public class ProfileController {
 
 		menuLabels.add(stats);
 		menuLabels.add(followers);
+		menuLabels.add(following);
 		menuLabels.add(settings);
 	}
 
@@ -150,26 +192,38 @@ public class ProfileController {
 	 * Sends a request to twitter asking for the followers list. It will return the
 	 * first 18 followers here. First use <code>this</code> method then use
 	 * <code>getMoreFollowers()</code> to request the others.
+	 * 
+	 * @param follower
 	 */
-	private void getFollowersList() {
+	@SuppressWarnings("static-access")
+	private void getFollowList(follow follow) {
 
-		followersPosition = "";
+		followPosition = "";
+
+		String mode = "followers";
+
+		if (follow == follow.following) {
+			mode = "following";
+		}
 
 		try {
-			Document followersPage = Jsoup
-					.connect("https://twitter.com/" + getCurrentAccount().getUsername() + "/following")
+			Document followPage = Jsoup.connect("https://twitter.com/" + getCurrentAccount().getUsername() + "/" + mode)
 					.cookies(getCurrentAccount().getCookies()).referrer("https://twitter.com").get();
 
-			Element followersGrid = followersPage.getElementsByClass("GridTimeline-items").get(0);
+			Element followGrid = followPage.getElementsByClass("GridTimeline-items").first();
 
-			followersPosition = followersGrid.attr("data-min-position");
+			if (followGrid == null) { // 0 Followers
+				return;
+			}
 
-			Elements followersList = followersGrid.getElementsByClass("Grid--withGutter");
+			followPosition = followGrid.attr("data-min-position");
 
-			displayFollower(followersList);
+			Elements followList = followGrid.getElementsByClass("Grid--withGutter");
+
+			displayFollows(followList);
 
 		} catch (IOException e) {
-			logger.log(Level.SEVERE, "Couldn't get followers list.");
+			logger.severe("Couldn't get followers list.");
 			// TODO show alert ?
 		}
 
@@ -179,29 +233,43 @@ public class ProfileController {
 	 * Request followers list using <code>followersPosition</code>. It will return
 	 * and add to the ScrollPane 18 followers every time <code>this method</code> is
 	 * called.
+	 * 
+	 * @param follower
 	 */
-	private void getMoreFollowers() {
+	private void getMoreFollow(follow follow) {
+
+		String mode = "followers";
+
+		if (follow == follow.following) {
+			mode = "following";
+		}
 
 		try {
+			// Returns JSON
 			Response res = Jsoup
-					.connect("https://twitter.com/" + getCurrentAccount().getUsername()
-							+ "/following/users?include_available_features=1&include_entities=1" + "&max_position="
-							+ followersPosition + "&reset_error_state=false")
+					.connect("https://twitter.com/" + getCurrentAccount().getUsername() + "/" + mode
+							+ "/users?include_available_features=1&include_entities=1" + "&max_position="
+							+ followPosition + "&reset_error_state=false")
 					.referrer("https://twitter.com").ignoreContentType(true).cookies(getCurrentAccount().getCookies())
 					.execute();
 
+			if (res.body().startsWith("<")) { // If you have 0 followers, it will return HTML instead of JSON.
+				return;
+			}
+
 			JSONObject json = new JSONObject(res.body());
 
-			followersPosition = json.getString("min_position");
+			// Update min_position
+			followPosition = json.getString("min_position");
 
 			Document moreFollowers = Jsoup.parse(json.getString("items_html"));
 
-			displayFollower(moreFollowers.getElementsByClass("Grid--withGutter"));
+			displayFollows(moreFollowers.getElementsByClass("Grid--withGutter"));
 
 			requestSent = false;
 
 		} catch (IOException e) {
-			logger.log(Level.SEVERE, "Couldn't laod more followers.");
+			logger.severe("Couldn't load more followers.");
 			return;
 		}
 
@@ -226,7 +294,7 @@ public class ProfileController {
 	 * @param followers
 	 *            a node containing many follower's node inside it.
 	 */
-	private void displayFollower(Elements followers) {
+	private void displayFollows(Elements followers) {
 
 		for (Element followersGroup : followers) {
 			// TOOD optimize this if needed.
@@ -249,44 +317,61 @@ public class ProfileController {
 	 */
 	private void addFollowerToScrollPane(Element follower) {
 
-		FlowPane flowPane = (FlowPane) scrollPane.getContent();
+		Pane followerPane;
 
-		// 2 followers per column. fullWidth/2
+		Label name;
+		Label twitterUsername;
+
+		Button followUnfollow;
+
+		// 2 followers per column. fullWidth / 2
 		double halfFlowPaneWidth = flowPane.getWidth() / 2;
 
-		Pane followerPane = new Pane();
+		followerPane = new Pane();
 		followerPane.setPrefWidth(halfFlowPaneWidth - 5);
-		followerPane.setPrefHeight(0.3 * halfFlowPaneWidth);
-		followerPane.setId(follower.attr("data-user-id"));
+		followerPane.setPrefHeight(0.1 * halfFlowPaneWidth);
+		// followerPane.setId(follower.attr("data-user-id"));
 
-		// Username
-		Label username = new Label(follower.getElementsByClass("btn-group").first().attr("data-name"));
-		username.setPrefWidth(followerPane.getPrefWidth());
+		// Name
+		name = new Label(follower.getElementsByClass("btn-group").first().attr("data-name"));
+		name.setPrefWidth(followerPane.getPrefWidth());
 
 		// @Username
-		Label twitterAcc = new Label("@" + follower.getElementsByClass("btn-group").first().attr("data-screen-name"));
-		twitterAcc.setTranslateY(25);
-		twitterAcc.setPrefWidth(followerPane.getPrefWidth());
-		twitterAcc.getStyleClass().add("twitterAccount");
+		twitterUsername = new Label("@" + follower.getElementsByClass("btn-group").first().attr("data-screen-name"));
+		twitterUsername.setTranslateY(25);
+		twitterUsername.setPrefWidth(followerPane.getPrefWidth());
+		twitterUsername.getStyleClass().add("twitterAccount");
 
 		// Follow/Unfollow
-		Button followUnfollow = new Button("Follow");
+		followUnfollow = new Button("Follow");
 		followUnfollow.setTranslateX(halfFlowPaneWidth - 75);
+		followUnfollow.getStyleClass().add("followButton");
+		followUnfollow.setOnAction((e) -> {
+			toggleFollowButton(followUnfollow);
+		});
 
-		
-		followerPane.getChildren().addAll(username, twitterAcc, followUnfollow);
+		if (follower.getElementsByClass("btn-group").first().hasClass("following")) {
+			followUnfollow.setText("Unfollow");
+		}
+
+		followerPane.getChildren().addAll(name, twitterUsername, followUnfollow);
 
 		flowPane.getChildren().add(followerPane);
 
 	}
 
 	/**
-	 * Connects to an user profile page and retrieves the page.
+	 * Retrieves the user profile page and displays information about it.
 	 * 
 	 * @param acc
 	 */
 	public void loadProfile(TwitterAccount acc) {
-		logger.log(Level.INFO, "Loading profile: " + acc.getUsername());
+
+		if (acc == null) {
+			return;
+		}
+
+		logger.info("Loading profile: " + acc.getUsername());
 
 		currentAccount = acc;
 
@@ -298,10 +383,10 @@ public class ProfileController {
 
 			profilePage = Jsoup.parse(profilePageResponse.body());
 		} catch (Exception e) {
-			logger.log(Level.SEVERE, "Couldn't display profile information.");
+			logger.severe("Could't display profile information. profile=" + acc.getUsername());
 		}
 
-		fillProfileInformation(profilePage);
+		showProfileInformation(profilePage);
 
 	}
 
@@ -310,7 +395,7 @@ public class ProfileController {
 	 * 
 	 * @param profilePage
 	 */
-	private void fillProfileInformation(Document profilePage) {
+	private void showProfileInformation(Document profilePage) {
 
 		try {
 			avatar.setImage(new Image(profilePage.selectFirst(".ProfileAvatar-image").attr("src")));
@@ -320,16 +405,30 @@ public class ProfileController {
 			tweets.setText(profilePage
 					.selectFirst("li.ProfileNav-item:nth-child(1) > a:nth-child(1) > span:nth-child(3)").text());
 
-			followersCount.setText(
-					profilePage.selectFirst("li.ProfileNav-item:nth-child(3) > a:nth-child(1) > span:nth-child(3)")
-							.attr("data-count"));
+			followersCount.setText(profilePage
+					.selectFirst("li.ProfileNav-item:nth-child(3) > a:nth-child(1) > span:nth-child(3)").text());
 
-			following.setText(
-					profilePage.selectFirst("li.ProfileNav-item:nth-child(2) > a:nth-child(1) > span:nth-child(3)")
-							.attr("data-count"));
+			followersCount.setTooltip(new Tooltip(
+					profilePage.selectFirst("li.ProfileNav-item:nth-child(3) > a:nth-child(1) > span:nth-child(3)")
+							.attr("data-count")));
+
+			followingCount.setText(profilePage
+					.selectFirst("li.ProfileNav-item:nth-child(2) > a:nth-child(1) > span:nth-child(3)").text());
 
 		} catch (Exception e) {
 			// Do nothing.
+		}
+
+	}
+
+	private void toggleFollowButton(Button button) {
+
+		if (button.getText().equals("Follow")) {
+			button.setText("Unfollow");
+			// TODO Follow user
+		} else {
+			button.setText("Follow");
+			// TODO Unfollow user.
 		}
 
 	}

@@ -11,49 +11,87 @@
 <?import javafx.scene.layout.Region?>
 <?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1016.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.harystolho.controllers.ProfileController">
-   <children>
-      <Region prefHeight="61.0" prefWidth="1016.0" styleClass="menu" />
-      <Label fx:id="stats" layoutX="14.0" layoutY="18.0" styleClass="menuLabel" text="Stats">
-         <font>
-            <Font size="18.0" />
-         </font>
-      </Label>
-      <Label fx:id="followers" layoutX="88.0" layoutY="18.0" styleClass="menuLabel" text="Followers" />
-      <Label fx:id="settings" layoutX="205.0" layoutY="18.0" styleClass="menuLabel" text="Settings" />
-      <Group fx:id="paneGroup" layoutY="61.0">
-         <children>
-            <Pane fx:id="statsPane" prefHeight="659.0" prefWidth="1016.0" visible="false">
-               <children>
-                  <Label layoutX="45.0" layoutY="209.0" text="Tweets:" />
-                  <Label layoutX="44.0" layoutY="255.0" text="Followers:" />
-                  <Label layoutX="46.0" layoutY="301.0" text="Folowing:" />
-                  <Label layoutX="46.0" layoutY="347.0" text="Likes:" />
-                  <Label fx:id="tweets" layoutX="166.0" layoutY="209.0" text="0" />
-                  <Label fx:id="followersCount" layoutX="166.0" layoutY="255.0" text="0" />
-                  <Label fx:id="following" layoutX="166.0" layoutY="301.0" text="0" />
-                  <Label fx:id="likes" layoutX="167.0" layoutY="347.0" text="0" />
-                  <Separator layoutX="44.0" layoutY="158.0" prefHeight="26.0" prefWidth="958.0" />
-                  <Label fx:id="username" layoutX="180.0" layoutY="132.0" prefHeight="26.0" prefWidth="388.0" text="Username" />
-                  <ImageView fx:id="avatar" fitHeight="132.0" fitWidth="132.0" layoutX="29.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true" />
-               </children>
-               <opaqueInsets>
-                  <Insets />
-               </opaqueInsets>
-            </Pane>
-            <Pane fx:id="followersPane" prefHeight="659.0" prefWidth="1016.0">
-               <children>
-                  <ScrollPane fx:id="scrollPane" hbarPolicy="NEVER" prefHeight="659.0" prefWidth="1016.0" vvalue="0.93">
-                     <content>
-                        <FlowPane prefHeight="653.0" prefWidth="1010.0">
-                           <padding>
-                              <Insets left="7.0" top="7.0" />
-                           </padding></FlowPane>
-                     </content>
-                  </ScrollPane>
-               </children>
-            </Pane>
-         </children>
-      </Group>
-   </children>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity"
+	minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0"
+	prefWidth="1016.0" xmlns="http://javafx.com/javafx/8.0.171"
+	xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="com.harystolho.controllers.ProfileController">
+	<children>
+		<Region prefHeight="61.0" prefWidth="1016.0" styleClass="menu" />
+		<Label fx:id="stats" layoutX="14.0" layoutY="18.0"
+			styleClass="menuLabel" text="Stats">
+			<font>
+				<Font size="18.0" />
+			</font>
+		</Label>
+		<Label fx:id="followers" layoutX="88.0" layoutY="18.0"
+			styleClass="menuLabel" text="Followers" />
+		<Label fx:id="following" layoutX="208.0" layoutY="18.0"
+			styleClass="menuLabel" text="Following" />
+		<Label fx:id="settings" layoutX="911.0" layoutY="18.0"
+			styleClass="menuLabel" text="Settings" />
+		<Group fx:id="paneGroup" layoutY="61.0">
+			<children>
+				<Pane fx:id="statsPane" prefHeight="659.0" prefWidth="1016.0"
+					visible="false">
+					<children>
+						<Label layoutX="45.0" layoutY="209.0" text="Tweets:" />
+						<Label layoutX="44.0" layoutY="255.0" text="Followers:" />
+						<Label layoutX="46.0" layoutY="301.0" text="Folowing:" />
+						<Label layoutX="46.0" layoutY="347.0" text="Likes:" />
+						<Label fx:id="tweets" layoutX="166.0" layoutY="209.0"
+							text="0" />
+						<Label fx:id="followersCount" layoutX="166.0"
+							layoutY="255.0" text="0" />
+						<Label fx:id="followingCount" layoutX="166.0"
+							layoutY="301.0" text="0" />
+						<Label fx:id="likes" layoutX="167.0" layoutY="347.0"
+							text="0" />
+						<Separator layoutX="44.0" layoutY="158.0"
+							prefHeight="26.0" prefWidth="958.0" />
+						<Label fx:id="username" layoutX="180.0" layoutY="132.0"
+							prefHeight="26.0" prefWidth="388.0" text="Username" />
+						<ImageView fx:id="avatar" fitHeight="132.0"
+							fitWidth="132.0" layoutX="29.0" layoutY="26.0"
+							pickOnBounds="true" preserveRatio="true" />
+					</children>
+					<opaqueInsets>
+						<Insets />
+					</opaqueInsets>
+				</Pane>
+				<Pane fx:id="followersPane" prefHeight="659.0"
+					prefWidth="1016.0" visible="false">
+					<children>
+						<ScrollPane fx:id="followerScrollPane"
+							hbarPolicy="NEVER" prefHeight="659.0" prefWidth="1016.0"
+							vvalue="0.93">
+							<content>
+								<FlowPane prefHeight="653.0" prefWidth="1010.0">
+									<padding>
+										<Insets left="7.0" top="7.0" />
+									</padding>
+								</FlowPane>
+							</content>
+						</ScrollPane>
+					</children>
+				</Pane>
+				<Pane fx:id="followingPane" prefHeight="659.0"
+					prefWidth="1016.0" visible="false">
+					<children>
+						<ScrollPane fx:id="followingScrollPane"
+							hbarPolicy="NEVER" prefHeight="659.0" prefWidth="1016.0"
+							vvalue="0.93">
+							<content>
+								<FlowPane prefHeight="653.0" prefWidth="1010.0">
+									<padding>
+										<Insets left="7.0" top="7.0" />
+									</padding>
+								</FlowPane>
+							</content>
+						</ScrollPane>
+					</children>
+				</Pane>
+			</children>
+		</Group>
+	</children>
 </Pane>

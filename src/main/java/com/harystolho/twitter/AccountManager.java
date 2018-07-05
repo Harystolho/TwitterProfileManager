@@ -37,9 +37,9 @@ public class AccountManager {
 			fos.write(accounts.toString().getBytes());
 
 		} catch (FileNotFoundException e) {
-			logger.log(Level.SEVERE, "Couldn't write to file when saving accounts.");
+			logger.severe("Couldn't write to file when saving accounts.");
 		} catch (IOException e) {
-			logger.log(Level.SEVERE, "An exception occurred when writing to the file.");
+			logger.severe("An exception occurred when writing to the file.");
 			e.printStackTrace();
 		}
 
@@ -90,9 +90,9 @@ public class AccountManager {
 			}
 
 		} catch (FileNotFoundException e) {
-			logger.log(Level.INFO, "Couldn't find a file to load.");
+			logger.info("Couldn't find a file to load.");
 		} catch (IOException e) {
-			logger.log(Level.SEVERE, "An exception occurred when reading to the file.");
+			logger.severe("An Exception occurred when reading the accounts.json file.");
 		}
 
 		return accountList;

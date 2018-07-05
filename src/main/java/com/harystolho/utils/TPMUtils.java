@@ -21,7 +21,7 @@ public class TPMUtils {
 		try {
 			p = FXMLLoader.load(ClassLoader.getSystemResource(name));
 		} catch (IOException e) {
-			logger.log(Level.SEVERE, "Couldn't load the fxml file: " + name, e);
+			logger.severe("Couldn't load the fxml file=" + name);
 			System.exit(1);
 		}
 
@@ -30,12 +30,12 @@ public class TPMUtils {
 	}
 
 	public static void start() {
-		logger.log(Level.INFO, "Starting application.");
+		logger.info("Starting applicaiton.");
 
 	}
 
 	public static void close() {
-		logger.log(Level.INFO, "Closing application.");
+		logger.info("Exiting application.");
 
 		AccountManager.saveAccounts(Main.getApplication().getMainController().getAccountList());
 

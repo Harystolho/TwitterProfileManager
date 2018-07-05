@@ -33,6 +33,9 @@ public class MainController {
 	private Button addNewAccount;
 
 	@FXML
+	private Button removeAccount;
+
+	@FXML
 	private ListView<TwitterAccount> accountList;
 
 	@FXML
@@ -55,10 +58,11 @@ public class MainController {
 	private void loadEventHandler() {
 
 		addNewAccount.setOnAction((e) -> {
-
 			loadOnRightPage((Pane) TPMUtils.loadFXML("login.fxml"));
-			// openWebView();
+		});
 
+		removeAccount.setOnAction((e) -> {
+			accountList.getItems().remove(accountList.getSelectionModel().getSelectedItem());
 		});
 
 		accountList.getSelectionModel().selectedItemProperty().addListener((ob, oldValue, newValue) -> {
@@ -67,6 +71,7 @@ public class MainController {
 		});
 
 		home.setOnMouseClicked((e) -> {
+			accountList.getSelectionModel().clearSelection();
 			rightPane.getChildren().clear();
 		});
 
