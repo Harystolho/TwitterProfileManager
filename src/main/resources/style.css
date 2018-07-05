@@ -49,6 +49,10 @@
     -fx-font-size: 15px;
 }
 
+.accountButton{
+    -fx-background-color: white;
+}
+
 .followButton{
     -fx-background-color: #4f4f4f;
 }

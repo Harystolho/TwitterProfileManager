@@ -1,6 +1,5 @@
 package com.harystolho.controllers;
 
-import java.io.IOException;
 import java.util.List;
 
 import org.jsoup.Connection.Method;
@@ -12,10 +11,8 @@ import com.harystolho.Main;
 import com.harystolho.twitter.AccountManager;
 import com.harystolho.twitter.TwitterAccount;
 import com.harystolho.utils.TPMUtils;
-import com.harystolho.utils.WebEngineBridge;
 
 import javafx.collections.ObservableList;
-import javafx.concurrent.Worker.State;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
@@ -23,9 +20,6 @@ import javafx.scene.control.Button;
 import javafx.scene.control.ListView;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.Pane;
-import javafx.scene.web.WebEngine;
-import javafx.scene.web.WebView;
-import netscape.javascript.JSObject;
 
 public class MainController {
 
@@ -66,7 +60,7 @@ public class MainController {
 		});
 
 		accountList.getSelectionModel().selectedItemProperty().addListener((ob, oldValue, newValue) -> {
-			loadUserProfilePane();
+			loadProfilePane();
 			Main.getApplication().getProfileController().loadProfile(newValue);
 		});
 
@@ -77,6 +71,9 @@ public class MainController {
 
 	}
 
+	/**
+	 * Loads accounts from <code>accounts.json</code> file.
+	 */
 	private void loadAccounts() {
 		setAccountList(AccountManager.loadAccounts());
 	}
@@ -88,7 +85,9 @@ public class MainController {
 	 * {@link #accountList}, otherwise it will display and error message.
 	 * 
 	 * @param username
+	 *            username or email
 	 * @param password
+	 *            password
 	 */
 	public void loginUser(String username, String password) {
 
@@ -131,68 +130,13 @@ public class MainController {
 
 	}
 
-	private void loadUserProfilePane() {
+	private void loadProfilePane() {
 		loadOnRightPage((Pane) TPMUtils.loadFXML("menu.fxml"));
 	}
 
 	private void loadOnRightPage(Pane pane) {
 		rightPane.getChildren().clear();
 		rightPane.getChildren().add(pane);
-	}
-
-	/**
-	 * I'm not using this because the WebEgine changes the CookHandler object.
-	 * Because of that I can't see <code>httpOnly</code> cookies that are needed in
-	 * this application.
-	 * 
-	 * @deprecated
-	 */
-	private void openWebView() {
-
-		WebView view = new WebView();
-		WebEngine engine = view.getEngine();
-
-		engine.setJavaScriptEnabled(true);
-
-		engine.getLoadWorker().stateProperty().addListener((ov, oldState, newState) -> {
-
-			if (newState == State.SUCCEEDED) {
-
-				JSObject window = (JSObject) engine.executeScript("window");
-
-				window.setMember("bridge", new WebEngineBridge());
-
-				// now wait for the user to login. When the user presses "login"
-				// It will call the loginUser(); method.
-			}
-
-		});
-
-		view.setPrefWidth(rightPane.getWidth());
-		view.setPrefHeight(rightPane.getHeight());
-
-		rightPane.getChildren().add(view);
-
-		loadLoginPage(engine);
-
-	}
-
-	@Deprecated
-	private void loadLoginPage(WebEngine engine) {
-		Document loginPage = null;
-		try {
-			loginPage = Jsoup.parse(ClassLoader.getSystemResourceAsStream("login.html"), null, "/");
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-
-		if (loginPage == null) {
-			System.out.println("Page is null.");
-			return;
-		}
-
-		engine.loadContent(loginPage.outerHtml());
-
 	}
 
 	public ObservableList<TwitterAccount> getAccountList() {

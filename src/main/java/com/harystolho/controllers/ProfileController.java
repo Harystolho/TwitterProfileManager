@@ -162,6 +162,9 @@ public class ProfileController {
 
 	}
 
+	/**
+	 * This list exists to iterate through the menu labels.
+	 */
 	private void createMenuLabeList() {
 		menuLabels = new LinkedList<>();
 
@@ -171,6 +174,13 @@ public class ProfileController {
 		menuLabels.add(settings);
 	}
 
+	/**
+	 * Iterates through {@link #menuLabels} to remove the bottom border and adds the
+	 * bottom border to the <code>label</code>. Then shows the <code>pane</code>.
+	 * 
+	 * @param label
+	 * @param pane
+	 */
 	private void setMenuLabel(Label label, Pane pane) {
 
 		for (Label l : menuLabels) {
@@ -181,6 +191,7 @@ public class ProfileController {
 			node.setVisible(false);
 		}
 
+		// Add bottom border effect.
 		label.getStyleClass().add("selectedLabel");
 
 		if (pane != null) {
@@ -195,7 +206,6 @@ public class ProfileController {
 	 * 
 	 * @param follower
 	 */
-	@SuppressWarnings("static-access")
 	private void getFollowList(follow follow) {
 
 		followPosition = "";
@@ -212,7 +222,7 @@ public class ProfileController {
 
 			Element followGrid = followPage.getElementsByClass("GridTimeline-items").first();
 
-			if (followGrid == null) { // 0 Followers
+			if (followGrid == null) { // 0 Followers or 0 Following
 				return;
 			}
 
@@ -253,7 +263,8 @@ public class ProfileController {
 					.referrer("https://twitter.com").ignoreContentType(true).cookies(getCurrentAccount().getCookies())
 					.execute();
 
-			if (res.body().startsWith("<")) { // If you have 0 followers, it will return HTML instead of JSON.
+			// HTML starts with <DOCTYPE HTML>
+			if (res.body().startsWith("<")) { // If you have 0 followers/following, it will return HTML instead of JSON.
 				return;
 			}
 
@@ -343,15 +354,12 @@ public class ProfileController {
 		twitterUsername.getStyleClass().add("twitterAccount");
 
 		// Follow/Unfollow
-		followUnfollow = new Button("Follow");
-		followUnfollow.setTranslateX(halfFlowPaneWidth - 75);
+		followUnfollow = new Button("Not Following");
+		followUnfollow.setTranslateX(halfFlowPaneWidth - 105);
 		followUnfollow.getStyleClass().add("followButton");
-		followUnfollow.setOnAction((e) -> {
-			toggleFollowButton(followUnfollow);
-		});
 
 		if (follower.getElementsByClass("btn-group").first().hasClass("following")) {
-			followUnfollow.setText("Unfollow");
+			followUnfollow.setText("Following");
 		}
 
 		followerPane.getChildren().addAll(name, twitterUsername, followUnfollow);
@@ -415,20 +423,11 @@ public class ProfileController {
 			followingCount.setText(profilePage
 					.selectFirst("li.ProfileNav-item:nth-child(2) > a:nth-child(1) > span:nth-child(3)").text());
 
+			likes.setText(profilePage
+					.selectFirst("li.ProfileNav-item:nth-child(4) > a:nth-child(1) > span:nth-child(3)").text());
+
 		} catch (Exception e) {
 			// Do nothing.
-		}
-
-	}
-
-	private void toggleFollowButton(Button button) {
-
-		if (button.getText().equals("Follow")) {
-			button.setText("Unfollow");
-			// TODO Follow user
-		} else {
-			button.setText("Follow");
-			// TODO Unfollow user.
 		}
 
 	}
